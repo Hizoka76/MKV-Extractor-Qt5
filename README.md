@@ -7,7 +7,7 @@
 
 
 ### Principe de base :
-MKV Extracto Qt5 est écrit en **python 3 + Qt5**.
+MKV Extracto Qt5 est écrit en **python 3 + Qt5** et fonction pour **Linux**.
 Il est à utiliser en complément de **MKVToolNix** [MKVToolNix](https://mkvtoolnix.download/index.html).
 
 Fonctionnement :
@@ -48,7 +48,7 @@ Le logiciel permet de :
 
 
 ### Basic principle:
-MKV Extracto Qt5 is written in **python3 + Qt5**.
+MKV Extracto Qt5 is written in **python3 + Qt5** and works for **Linux**.
 It is to be used in addition to **MKVToolNix** [MKVToolNix](https://mkvtoolnix.download/index.html).
 
 How it works:

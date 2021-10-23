@@ -37,7 +37,7 @@ Le logiciel permet de :
    - Contient également _mkvmerge_ pour réencapsuler les pistes.
  - **MKVToolNixGui** [MKVToolNixGui](https://mkvtoolnix.download/index.html): Pour afficher toutes les informations du fichier matroska depuis MKVToolNix.
  - **MKValidator** [MKValidator](https://matroska.org/downloads/mkvalidator.html) : Pour vérifier les fichiers matroska.
- - **QTesseract5** : Pour la conversion automatique des sous-titres sub en srt avec _tesseract_.
+ - **QTesseract5** [QTesseract5](https://github.com/Hizoka76/QTesseract5) : Pour la conversion automatique des sous-titres sub en srt avec _tesseract_.
 
 
 *** ***
@@ -78,4 +78,4 @@ The software allows to :
    - Also contains _mkvmerge_ to re-encapsulate tracks.
  - MKVToolNixGui** [MKVToolNixGui](https://mkvtoolnix.download/index.html): To display all information of the matroska file from MKVToolNix.
  - MKValidator** [MKValidator](https://matroska.org/downloads/mkvalidator.html): To check the matroska files.
- - QTesseract5**: For automatic conversion of subtitles to srt with _tesseract_.
+ - QTesseract5** [QTesseract5](https://github.com/Hizoka76/QTesseract5): For automatic conversion of subtitles to srt with _tesseract_.

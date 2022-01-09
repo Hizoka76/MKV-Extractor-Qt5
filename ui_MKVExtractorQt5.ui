@@ -212,11 +212,11 @@
                 <property name="wordWrap">
                  <bool>true</bool>
                 </property>
-                <attribute name="horizontalHeaderDefaultSectionSize">
-                 <number>100</number>
-                </attribute>
                 <attribute name="horizontalHeaderMinimumSectionSize">
                  <number>20</number>
+                </attribute>
+                <attribute name="horizontalHeaderDefaultSectionSize">
+                 <number>100</number>
                 </attribute>
                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
                  <bool>false</bool>
@@ -224,11 +224,11 @@
                 <attribute name="verticalHeaderVisible">
                  <bool>false</bool>
                 </attribute>
-                <attribute name="verticalHeaderHighlightSections">
-                 <bool>false</bool>
-                </attribute>
                 <attribute name="verticalHeaderMinimumSectionSize">
                  <number>30</number>
+                </attribute>
+                <attribute name="verticalHeaderHighlightSections">
+                 <bool>false</bool>
                 </attribute>
                 <column>
                  <property name="text">
@@ -730,7 +730,8 @@
                 <string>Close</string>
                </property>
                <property name="icon">
-                <iconset theme="dialog-close"/>
+                <iconset theme="dialog-close">
+                 <normaloff>.</normaloff>.</iconset>
                </property>
               </widget>
              </item>
@@ -790,8 +791,8 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>-100</y>
-              <width>621</width>
+              <y>0</y>
+              <width>211</width>
               <height>326</height>
              </rect>
             </property>
@@ -847,7 +848,8 @@
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset theme="document-open"/>
+                  <iconset theme="document-open">
+                   <normaloff>.</normaloff>.</iconset>
                  </property>
                 </widget>
                </item>
@@ -1084,7 +1086,8 @@
               <string>Close</string>
              </property>
              <property name="icon">
-              <iconset theme="dialog-close"/>
+              <iconset theme="dialog-close">
+               <normaloff>.</normaloff>.</iconset>
              </property>
             </widget>
            </item>
@@ -1607,7 +1610,7 @@
     <string>Edit c&amp;onfiguration</string>
    </property>
    <property name="statusTip">
-    <string>Delete config file and don't save the new values for this time.</string>
+    <string>View and edit the configuration values.</string>
    </property>
   </action>
   <action name="mkv_mkvmerge">
@@ -1688,7 +1691,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I don't want to &lt;a name=&quot;result_box&quot;/&gt;leave unnecessary traces :)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="statusTip">
-    <string>View and edit the configuration values.</string>
+    <string>Delete config file and don't save the new values for this time.</string>
    </property>
   </action>
   <action name="option_feedback">
@@ -1787,7 +1790,7 @@
     <string>&amp;MKVToolNix last version</string>
    </property>
    <property name="toolTip">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MKVToolNix&lt;/span&gt; is a awesome software who serve of base at &lt;span style=&quot; font-weight:600;&quot;&gt;MKV Extractor Q&lt;/span&gt;t.&lt;/p&gt;&lt;p&gt;Try to update it regularly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MKVToolNix&lt;/span&gt; is a awesome software who serve of base at &lt;span style=&quot; font-weight:600;&quot;&gt;MKV Extractor Qt&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Try to update it regularly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="statusTip">
     <string>Open the download page of MKVToolNix.</string>
@@ -1841,12 +1844,13 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If the not available options are hide, it's impossible to see &lt;a name=&quot;result_box&quot;/&gt;all the possibilities offered by the software.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="statusTip">
-    <string>This option hides all options (like ffmpeg, mkvingo...) who are not available.</string>
+    <string>This option hides all options (like ffmpeg, mkvinfo...) who are not available.</string>
    </property>
   </action>
   <action name="option_softwares_locations">
    <property name="icon">
-    <iconset theme="application-x-executable"/>
+    <iconset theme="application-x-executable">
+     <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
     <string>Softwares locations</string>

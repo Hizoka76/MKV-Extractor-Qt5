@@ -595,7 +595,7 @@ Do you want convert this file in mkv ?</source>
     </message>
     <message>
         <location filename="MKVExtractorQt5.py" line="1062"/>
-        <source>This track can be renamed and must contain an extension to avoid reading errors by doubleclicking.</source>
+        <source>This track can be renamed and must contain an extension to avoid reading errors by clicking on the icon.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -796,7 +796,7 @@ What software do you want use ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1304"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1307"/>
         <source>Options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -811,7 +811,7 @@ What software do you want use ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1051"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1053"/>
         <source>&amp;Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -821,257 +821,257 @@ What software do you want use ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1490"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1493"/>
         <source>Launch extract/convert/mux tracks.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1127"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1130"/>
         <source>Execute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1153"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1156"/>
         <source>Cancel running processes and delete resulting file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1156"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1159"/>
         <source>Stop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1170"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1173"/>
         <source>Press button for pause between 2 jobs or during the SUB to SRT convert.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1173"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1176"/>
         <source>Pause</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1466"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1469"/>
         <source>Quit the program and save the options.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1463"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1466"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1253"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1256"/>
         <source>Fi&amp;le</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1263"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1266"/>
         <source>Actions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1286"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1289"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1311"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1314"/>
         <source>Q&amp;t styles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1375"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1378"/>
         <source>&amp;Information feedback:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1421"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1424"/>
         <source>&amp;Open an MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1424"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1427"/>
         <source>Open an MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1430"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1433"/>
         <source>Chosing an MKV file is required.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1442"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1445"/>
         <source>Output &amp;folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1448"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1451"/>
         <source>Chosing an output folder is mandatory if the option to use the same folder as the MKV file is not used.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1460"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1463"/>
         <source>&amp;Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1484"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1487"/>
         <source>&amp;Start job queue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1505"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1508"/>
         <source>&amp;Check MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1511"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1514"/>
         <source>Verify Matroska files for specification conformance with MKValidator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1526"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1529"/>
         <source>&amp;Optimize MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1532"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1535"/>
         <source>Clean/Optimize Matroska files with MKClean.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1547"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1550"/>
         <source>&amp;About MKV Extractor Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1550"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1553"/>
         <source>Display information about MKV Extractor Qt5.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1568"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1571"/>
         <source>&amp;View MKV information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1574"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1577"/>
         <source>Display information about the MKV file with mkvinfo.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1589"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1592"/>
         <source>About &amp;Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1592"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1595"/>
         <source>Display information about Qt.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1607"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1610"/>
         <source>Edit c&amp;onfiguration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1610"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1694"/>
         <source>Delete config file and don&apos;t save the new values for this time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1622"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1625"/>
         <source>&amp;Edit MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1628"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1631"/>
         <source>Open the MKV file with mkvmerge GUI for more modifications.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1652"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1655"/>
         <source>Open the MKV file with the default application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1664"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1667"/>
         <source>&amp;Need help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1667"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1670"/>
         <source>Help me! I&apos;m lost :(</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1685"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1688"/>
         <source>Delete &amp;recent files/URLs list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1706"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1709"/>
         <source>View &amp;information feedback box</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1721"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1724"/>
         <source>&amp;Anchor information feedback box</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1739"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1742"/>
         <source>&amp;Keep the window aspect and its position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1754"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1757"/>
         <source>&amp;Debug mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1757"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1760"/>
         <source>Enable this option for view more informations in feedback box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1772"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1775"/>
         <source>&amp;Use a system tray icon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1778"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1781"/>
         <source>Display a system tray icon of the software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1787"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1790"/>
         <source>&amp;MKVToolNix last version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1793"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1796"/>
         <source>Open the download page of MKVToolNix.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1805"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1808"/>
         <source>&amp;They talk about</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1808"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1811"/>
         <source>They talk about MKV Extractor Gui on the web.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1820"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1823"/>
         <source>&amp;What&apos;s up ?!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1826"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1829"/>
         <source>View the changelog file of the software.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1101,122 +1101,112 @@ What software do you want use ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1646"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1649"/>
         <source>&amp;Play MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1649"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1652"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1487"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1490"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) Open a mkv file.&lt;br/&gt;2) Tick tracks before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1508"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1511"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkvalidator needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1529"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1532"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkclean needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1625"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1628"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkvtoolnix-gui needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1823"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1826"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1) MKV Extractor Qt needs to be install by a debian package&lt;span style=&quot; font-style:italic;&quot;&gt; (on my ppa)&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="ui_MKVExtractorQt5.ui" line="1844"/>
-        <source>This option hides all options (like ffmpeg, mkvingo...) who are not available.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1150"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I want all stopped now!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1184"/>
-        <source>Progression of the actual job.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1308"/>
-        <source>List of the Qt styles available on the computer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1427"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Opens a file selector dialog to choose a MKV file or supported file who will be converted in MKV before load it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1445"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Opens a folder selector dialog to choose the directory who will receive the new files and if needed the temporary files.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1688"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I don&apos;t want to &lt;a name=&quot;result_box&quot;/&gt;leave unnecessary traces :)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1691"/>
-        <source>View and edit the configuration values.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1709"/>
-        <source>Show or hide the informations feedback box.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1724"/>
-        <source>Anchor or detach information feedback box.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1742"/>
-        <source>Keep in memory the aspect and the position of the window for the next opening.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1775"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;With a system tray icon, the software can be hided of the taskbar.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1790"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MKVToolNix&lt;/span&gt; is a awesome software who serve of base at &lt;span style=&quot; font-weight:600;&quot;&gt;MKV Extractor Q&lt;/span&gt;t.&lt;/p&gt;&lt;p&gt;Try to update it regularly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1838"/>
-        <source>&amp;Hide options not available</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1841"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If the not available options are hide, it&apos;s impossible to see &lt;a name=&quot;result_box&quot;/&gt;all the possibilities offered by the software.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1852"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1153"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I want all stopped now!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1187"/>
+        <source>Progression of the actual job.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1311"/>
+        <source>List of the Qt styles available on the computer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1430"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Opens a file selector dialog to choose a MKV file or supported file who will be converted in MKV before load it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1448"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Opens a folder selector dialog to choose the directory who will receive the new files and if needed the temporary files.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1691"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I don&apos;t want to &lt;a name=&quot;result_box&quot;/&gt;leave unnecessary traces :)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1613"/>
+        <source>View and edit the configuration values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1712"/>
+        <source>Show or hide the informations feedback box.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1727"/>
+        <source>Anchor or detach information feedback box.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1745"/>
+        <source>Keep in memory the aspect and the position of the window for the next opening.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1778"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;With a system tray icon, the software can be hided of the taskbar.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1841"/>
+        <source>&amp;Hide options not available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1856"/>
         <source>Softwares locations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1215"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1218"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Noooo!&lt;br/&gt;Please, don&apos;t close me!!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1226,28 +1216,38 @@ What software do you want use ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1084"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1086"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1048"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1050"/>
         <source>Restore the default softwares locations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1081"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1083"/>
         <source>Softwares locations close.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="777"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="778"/>
         <source>The locations are compatible with appimage files. The links cannot containt &quot; -&quot; in their names.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ui_MKVExtractorQt5.ui" line="1855"/>
+        <location filename="ui_MKVExtractorQt5.ui" line="1859"/>
         <source>Edit the executables locations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1793"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MKVToolNix&lt;/span&gt; is a awesome software who serve of base at &lt;span style=&quot; font-weight:600;&quot;&gt;MKV Extractor Qt&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Try to update it regularly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ui_MKVExtractorQt5.ui" line="1847"/>
+        <source>This option hides all options (like ffmpeg, mkvinfo...) who are not available.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

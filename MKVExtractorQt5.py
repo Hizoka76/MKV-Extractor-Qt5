@@ -350,7 +350,7 @@ class MKVExtractorQt5(QMainWindow):
 
 
         ### Définition de la taille des colonnes du tableau des pistes
-        largeur = (self.ui.mkv_tracks.size().width() - 75) / 3 # Calcul pour définir la taille des colonnes
+        largeur = int((self.ui.mkv_tracks.size().width() - 75) / 3) # Calcul pour définir la taille des colonnes
         self.ui.mkv_tracks.setMouseTracking(True) # Nécessaire à l'affichage des statustip
         self.ui.mkv_tracks.hideColumn(0) # Cache la 1ere colonne
         self.ui.mkv_tracks.setColumnWidth(1, 25) # Définit la colonne 1 à 25px
@@ -1059,7 +1059,7 @@ class MKVExtractorQt5(QMainWindow):
 
                      "TrackAac": QCoreApplication.translate("Track", "If the remuxed file has reading problems, change this value."),
                      "TrackAudio": QCoreApplication.translate("Track", "Change the language if it's not right. 'und' means 'Undetermined'."),
-                     "TrackAttachment": QCoreApplication.translate("Track", "This track can be renamed and must contain an extension to avoid reading errors by doubleclicking."),
+                     "TrackAttachment": QCoreApplication.translate("Track", "This track can be renamed and must contain an extension to avoid reading errors by clicking on the icon."),
                      "TrackChapters": QCoreApplication.translate("Track", "chapters"),
                      "TrackID1": QCoreApplication.translate("Track", "Work with track number {}."), # Pour les pistes normales
                      "TrackID2": QCoreApplication.translate("Track", "Work with attachment number {}."), # Pour les fichiers joints
@@ -1241,7 +1241,7 @@ class MKVExtractorQt5(QMainWindow):
 
         ### Visuel du tableau
         self.ui.configuration_table.sortItems(0) # Rangement par ordre de nom d'option
-        largeur = (self.ui.configuration_table.size().width() - 185) / 2 # Calcul de la largeur
+        largeur = int((self.ui.configuration_table.size().width() - 185) / 2) # Calcul de la largeur
         self.ui.configuration_table.setColumnWidth(0, 160) # Définition de la largeur de la colonne
         self.ui.configuration_table.setColumnWidth(1, largeur) # Définition de la largeur de la colonne
         self.ui.configuration_table.setColumnWidth(2, largeur) # Définition de la largeur de la colonne
@@ -3067,7 +3067,7 @@ class MKVExtractorQt5(QMainWindow):
     def resizeEvent(self, event):
         """Fonction qui resize le tableau à chaque modification de la taille de la fenêtre."""
         ### Resize de la liste des pistes
-        largeur = (self.ui.mkv_tracks.size().width() - 50) / 3 # Calcul pour définir la taille des colonnes
+        largeur = int((self.ui.mkv_tracks.size().width() - 50) / 3) # Calcul pour définir la taille des colonnes
         self.ui.mkv_tracks.setColumnWidth(3, largeur + 30) # Modification de la largeur des colonnes
         self.ui.mkv_tracks.setColumnWidth(4, largeur + 15) # Modification de la largeur des colonnes
 

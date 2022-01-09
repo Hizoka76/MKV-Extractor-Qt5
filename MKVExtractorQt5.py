@@ -3073,7 +3073,7 @@ class MKVExtractorQt5(QMainWindow):
 
 
         ### Resize de la liste des options
-        largeur = (self.ui.configuration_table.size().width() - 185) / 2 # Calcul pour définir la taille des colonnes
+        largeur = int((self.ui.configuration_table.size().width() - 185) / 2) # Calcul pour définir la taille des colonnes
         self.ui.configuration_table.setColumnWidth(0, 160) # Modification de la largeur des colonnes
         self.ui.configuration_table.setColumnWidth(1, largeur) # Modification de la largeur des colonnes
         self.ui.configuration_table.setColumnWidth(2, largeur) # Modification de la largeur des colonnes
@@ -3135,7 +3135,7 @@ class MKVExtractorQt5(QMainWindow):
 #############################################################################
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setApplicationVersion("5.5.8")
+    app.setApplicationVersion("5.5.9")
     app.setApplicationName("MKV Extractor Qt5")
 
     ### Dossier du logiciel, utile aux traductions et à la liste des codecs

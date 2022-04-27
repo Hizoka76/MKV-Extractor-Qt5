@@ -171,7 +171,7 @@ class MKVExtractorQt5(QMainWindow):
         ## Centrage de la fenêtre, en fonction de sa taille et de la taille de l'écran
         else:
             size_ecran = QDesktopWidget().screenGeometry() # Taille de l'écran
-            self.move((size_ecran.width() - self.geometry().width()) / 2, (size_ecran.height() - self.geometry().height()) / 2)
+            self.move(int((size_ecran.width() - self.geometry().width()) / 2), int((size_ecran.height() - self.geometry().height()) / 2))
 
 
         ### Modifications graphiques de boutons

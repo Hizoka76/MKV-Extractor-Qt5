@@ -1856,8 +1856,8 @@
      <bool>true</bool>
     </property>
     <property name="icon">
-     <iconset>
-      <normaloff>img/ES.png</normaloff>img/ES.png</iconset>
+     <iconset resource="MKVRessources.qrc">
+      <normaloff>:/img/ES.png</normaloff>:/img/ES.png</iconset>
     </property>
     <property name="text">
      <string notr="true">Versión en español</string>

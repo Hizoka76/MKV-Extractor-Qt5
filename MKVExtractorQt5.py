@@ -279,6 +279,7 @@ class MKVExtractorQt5(QMainWindow):
 
         ### Variables
         self.CloseMode = ""
+        self.SoftwareChangedDone = False
 
         ### Commandes à ne pas toucher
         super(MKVExtractorQt5, self).__init__(parent)
@@ -611,7 +612,8 @@ class MKVExtractorQt5(QMainWindow):
         self.ConnectActions()
 
         ### Recherche et mise à jour de leurs adresses dans softwares locations
-        self.SoftwareFinding()
+        # => La fonction est appelée via les langages
+        #self.SoftwareFinding()
 
         ### Création du dossier temporaire
         self.FolderTempCreate()
@@ -1051,7 +1053,8 @@ class MKVExtractorQt5(QMainWindow):
                     OptionWidget.setEnabled(False)
 
             ## Pour Qtesseract / BDSup2Sub / FFMpeg
-            self.SubtitlesSoftwareUpdate()
+            if Location in ("Location/Qtesseract5", "Location/FFMpeg", "Location/BDSup2Sub"):
+                self.SubtitlesSoftwareUpdate()
 
 
         ### Recherche ffmpeg et avconv qui font la même chose
@@ -1150,8 +1153,9 @@ class MKVExtractorQt5(QMainWindow):
 
         # Si BDSup2Sub/FFMpeg et Qtesseract sont fonctionnels
         if self.SoftIsExec("BDSup2Sub|FFMpeg") and self.SoftIsExec("Qtesseract5"):
-            # Bouton de conversion des sous-titres
-            option_subtitlesEnabled = True
+            if MKVDicoSelect:
+                # Bouton de conversion des sous-titres
+                option_subtitlesEnabled = True
 
             # Affichage des actions
             if self.SoftIsExec("BDSup2Sub"):
@@ -1212,8 +1216,9 @@ class MKVExtractorQt5(QMainWindow):
 
         # Si Qtesseract est fonctionnel
         elif self.SoftIsExec("Qtesseract5"):
-            # Bouton de conversion des sous-titres
-            option_subtitlesEnabled = True
+            if MKVDicoSelect:
+                # Bouton de conversion des sous-titres
+                option_subtitlesEnabled = True
 
             # Affichage des actions
             Qtesseract5ConvertVisible = True
@@ -1239,8 +1244,9 @@ class MKVExtractorQt5(QMainWindow):
 
         # Si BDSup2Sub/FFMpeg sont fonctionnels
         elif self.SoftIsExec("BDSup2Sub|FFMpeg"):
-            # Bouton de conversion des sous-titres
-            option_subtitlesEnabled = True
+            if MKVDicoSelect:
+                # Bouton de conversion des sous-titres
+                option_subtitlesEnabled = True
 
             # Affichage des actions
             if self.SoftIsExec("BDSup2Sub"):
@@ -2442,7 +2448,7 @@ class MKVExtractorQt5(QMainWindow):
                 if option_audio and option_subtitles:
                     break
 
-            # Mise à jour de l'état des widgets'
+            # Mise à jour de l'état des widgets
             self.ui.option_audio.setEnabled(option_audio)
             self.ui.option_subtitles.setEnabled(option_subtitles)
 

@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>657</width>
-    <height>571</height>
+    <width>600</width>
+    <height>512</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>525</width>
+    <width>600</width>
     <height>450</height>
    </size>
   </property>
@@ -185,6 +185,9 @@
                   <bold>false</bold>
                  </font>
                 </property>
+                <property name="statusTip">
+                 <string/>
+                </property>
                 <property name="editTriggers">
                  <set>QAbstractItemView::DoubleClicked</set>
                 </property>
@@ -234,16 +237,10 @@
                  <property name="text">
                   <string notr="true">ID</string>
                  </property>
-                 <property name="textAlignment">
-                  <set>AlignCenter</set>
-                 </property>
                 </column>
                 <column>
                  <property name="text">
                   <string notr="true"/>
-                 </property>
-                 <property name="textAlignment">
-                  <set>AlignCenter</set>
                  </property>
                  <property name="icon">
                   <iconset theme="checkbox">
@@ -266,24 +263,15 @@
                  <property name="text">
                   <string>Name/Information</string>
                  </property>
-                 <property name="textAlignment">
-                  <set>AlignCenter</set>
-                 </property>
                 </column>
                 <column>
                  <property name="text">
                   <string>Language/fps/Size</string>
                  </property>
-                 <property name="textAlignment">
-                  <set>AlignCenter</set>
-                 </property>
                 </column>
                 <column>
                  <property name="text">
                   <string>Codec</string>
-                 </property>
-                 <property name="textAlignment">
-                  <set>AlignCenter</set>
                  </property>
                 </column>
                </widget>
@@ -329,18 +317,18 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QToolButton" name="option_vobsub_srt">
+                 <widget class="QToolButton" name="option_subtitles">
                   <property name="enabled">
                    <bool>false</bool>
                   </property>
                   <property name="toolTip">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Qtesseract5 &lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(by me)&lt;/span&gt;: SUB to SRT convertion with OCR. This software is avaible on my PPA or on &lt;span style=&quot; text-decoration: underline;&quot;&gt;qtesseract5.hizo.fr&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;BDSub2Sup &lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(by Volker Oth then by Miklos Juhasz)&lt;/span&gt;: SUP to SUB convertion. This software is avaible on my PPA or on &lt;span style=&quot; text-decoration: underline;&quot;&gt;github.com&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Explications&lt;/span&gt;: If this button is activate, the SUP files will be convert to SUB format &lt;span style=&quot; font-style:italic;&quot;&gt;(if BDSup2Sub is present) &lt;/span&gt;then the SUB files will be convert to SRT files with OCR detection.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can't use it?&lt;/span&gt;&lt;br/&gt;1) Qtesseract5 needs to be install and BDSub2Sup too for SUB convertion.&lt;br/&gt;2) Tick a SUB/SUP track and the button will be activate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Qtesseract5 &lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(by me)&lt;/span&gt;: SUB to SRT convertion with OCR. This software is avaible on my PPA or on &lt;span style=&quot; text-decoration: underline;&quot;&gt;qtesseract5.hizo.fr&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;FFMpeg &lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(by Fabrice Bellard and &lt;/span&gt;Bobby Bingham&lt;span style=&quot; font-style:italic;&quot;&gt;)&lt;/span&gt;: SUP/PGS (HD subtitles) to SUB convertion. This software is avaible evrywhere.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;BDSub2Sup &lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;(by Volker Oth then by Miklos Juhasz)&lt;/span&gt;: SUP/PGS (HD subtitles) to SUB convertion. This software is avaible on my PPA or on &lt;span style=&quot; text-decoration: underline;&quot;&gt;github.com&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Explications&lt;/span&gt;: If this button is activate, BDSub2Sup/FFMpeg and Qtesseract5 will be used.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can't use it?&lt;/span&gt;&lt;br/&gt;1) Qtesseract5 or/and BDSub2Sup/FFMpeg needs to be install.&lt;br/&gt;2) Tick a SUB/SUP/PGS track and the button will be activate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
                   <property name="statusTip">
-                   <string>Convertion subtitles option. Qtesseract5 and BDSup2Sub (for SUP files) need to be present.</string>
+                   <string>Convertion subtitles option. Qtesseract5 and BDSup2Sub/FFMpeg (for SUP files) need to be present.</string>
                   </property>
                   <property name="text">
-                   <string>SUB to SRT</string>
+                   <string>Subtitles Convert</string>
                   </property>
                   <property name="icon">
                    <iconset resource="MKVRessources.qrc">
@@ -405,173 +393,6 @@
            </layout>
            <zorder></zorder>
           </widget>
-         </item>
-        </layout>
-       </widget>
-       <widget class="QWidget" name="SubsPage">
-        <layout class="QVBoxLayout" name="verticalLayout_6">
-         <property name="bottomMargin">
-          <number>20</number>
-         </property>
-         <item>
-          <layout class="QVBoxLayout" name="verticalLayout_5">
-           <item>
-            <widget class="QLabel" name="label_4">
-             <property name="font">
-              <font>
-               <weight>75</weight>
-               <bold>true</bold>
-              </font>
-             </property>
-             <property name="text">
-              <string>Subtitles recognized:</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="image_viewer">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>70</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>70</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <weight>50</weight>
-               <bold>false</bold>
-              </font>
-             </property>
-             <property name="statusTip">
-              <string>Tesseract couldn't recognize the subtitle file. It must be done manually.</string>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="Line" name="line_2">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>10</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <weight>50</weight>
-               <bold>false</bold>
-              </font>
-             </property>
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_6">
-             <item>
-              <widget class="QPushButton" name="sub_previous">
-               <property name="enabled">
-                <bool>false</bool>
-               </property>
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>100</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>100</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="statusTip">
-                <string>Previous subtitle image.</string>
-               </property>
-               <property name="text">
-                <string>Previous</string>
-               </property>
-               <property name="icon">
-                <iconset resource="MKVRessources.qrc">
-                 <normaloff>:/img/go-previous.png</normaloff>:/img/go-previous.png</iconset>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPlainTextEdit" name="sub_text">
-               <property name="font">
-                <font>
-                 <weight>50</weight>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="plainText">
-                <string/>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="sub_next">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>100</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>100</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="statusTip">
-                <string>Next subtitle image.</string>
-               </property>
-               <property name="text">
-                <string>Next</string>
-               </property>
-               <property name="icon">
-                <iconset resource="MKVRessources.qrc">
-                 <normaloff>:/img/go-next.png</normaloff>:/img/go-next.png</iconset>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-          </layout>
          </item>
         </layout>
        </widget>
@@ -793,7 +614,7 @@
               <x>0</x>
               <y>0</y>
               <width>211</width>
-              <height>326</height>
+              <height>406</height>
              </rect>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -815,6 +636,9 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_avconv">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -844,6 +668,9 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_bdsup2sub">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -873,6 +700,9 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_ffmpeg">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -902,6 +732,41 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_mkclean">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="document-open">
+                   <normaloff>.</normaloff>.</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_18">
+               <item>
+                <widget class="QLabel" name="label_16">
+                 <property name="text">
+                  <string notr="true">MKVExtract</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="location_mkvextract">
+                 <property name="clearButtonEnabled">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="button_mkvextract">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -931,6 +796,41 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_mkvinfo">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset theme="document-open">
+                   <normaloff>.</normaloff>.</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_17">
+               <item>
+                <widget class="QLabel" name="label_15">
+                 <property name="text">
+                  <string notr="true">MKVMerge</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="location_mkvmerge">
+                 <property name="clearButtonEnabled">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="button_mkvmerge">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -960,6 +860,9 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_mkvtoolnix">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -989,6 +892,9 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_mkvalidator">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -1018,6 +924,9 @@
                </item>
                <item>
                 <widget class="QPushButton" name="button_qtesseract5">
+                 <property name="statusTip">
+                  <string>Select the command location.</string>
+                 </property>
                  <property name="text">
                   <string/>
                  </property>
@@ -1150,7 +1059,7 @@
          </size>
         </property>
         <property name="toolTip">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I want all stopped now!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string/>
         </property>
         <property name="statusTip">
          <string>Cancel running processes and delete resulting file.</string>
@@ -1215,7 +1124,7 @@
          </size>
         </property>
         <property name="toolTip">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Noooo!&lt;br/&gt;Please, don't close me!!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string/>
         </property>
         <property name="statusTip">
          <string>Quit the program and save the options.</string>
@@ -1247,7 +1156,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>657</width>
+     <width>600</width>
      <height>30</height>
     </rect>
    </property>
@@ -1265,15 +1174,6 @@
     <property name="title">
      <string>Actions</string>
     </property>
-    <addaction name="mkv_info"/>
-    <addaction name="mkv_mkvmerge"/>
-    <addaction name="separator"/>
-    <addaction name="mk_validator"/>
-    <addaction name="mk_clean"/>
-    <addaction name="separator"/>
-    <addaction name="mkv_view"/>
-    <addaction name="separator"/>
-    <addaction name="mkv_execute_2"/>
    </widget>
    <widget class="QMenu" name="menuAide">
     <property name="layoutDirection">
@@ -1320,6 +1220,8 @@
     </widget>
     <addaction name="option_recent_infos"/>
     <addaction name="separator"/>
+    <addaction name="option_del_temp_files"/>
+    <addaction name="separator"/>
     <addaction name="option_configuration_table"/>
     <addaction name="option_softwares_locations"/>
     <addaction name="separator"/>
@@ -1332,10 +1234,12 @@
     <addaction name="option_aspect"/>
     <addaction name="separator"/>
     <addaction name="option_systray"/>
+    <addaction name="option_minimise_systray"/>
     <addaction name="separator"/>
     <addaction name="lang_en"/>
     <addaction name="lang_fr"/>
     <addaction name="lang_cs"/>
+    <addaction name="lang_es"/>
    </widget>
    <addaction name="menuFichier"/>
    <addaction name="menuActions"/>
@@ -1498,7 +1402,7 @@
   </action>
   <action name="mk_validator">
    <property name="enabled">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
    <property name="icon">
     <iconset theme="dialog-ok">
@@ -1519,7 +1423,7 @@
   </action>
   <action name="mk_clean">
    <property name="enabled">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
    <property name="icon">
     <iconset theme="draw-eraser">
@@ -1561,7 +1465,7 @@
   </action>
   <action name="mkv_info">
    <property name="enabled">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
    <property name="icon">
     <iconset theme="mkvinfo">
@@ -1615,7 +1519,7 @@
   </action>
   <action name="mkv_mkvmerge">
    <property name="enabled">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
    <property name="icon">
     <iconset theme="mkvmerge">
@@ -1685,7 +1589,10 @@
      <normaloff>.</normaloff>.</iconset>
    </property>
    <property name="text">
-    <string>Delete &amp;recent files/URLs list</string>
+    <string>Delete &amp;recent Qt files/URLs list</string>
+   </property>
+   <property name="iconText">
+    <string>Delete recent Qt files/URLs list</string>
    </property>
    <property name="toolTip">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I don't want to &lt;a name=&quot;result_box&quot;/&gt;leave unnecessary traces :)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -1699,7 +1606,7 @@
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="icon">
     <iconset theme="code-context">
@@ -1859,7 +1766,42 @@
     <string>Edit the executables locations.</string>
    </property>
   </action>
-  <actiongroup name="actionGroupName8"/>
+  <action name="option_minimise_systray">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="window-minimise">
+     <normaloff>.</normaloff>.</iconset>
+   </property>
+   <property name="text">
+    <string>Minimize window when closed with X</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Minimize the window when it closed with the X and when the systray is enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="statusTip">
+    <string>Minimize the window when it closed with the X and when the systray is enabled.</string>
+   </property>
+  </action>
+  <action name="option_del_temp_files">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="edit-delete">
+     <normaloff>.</normaloff>.</iconset>
+   </property>
+   <property name="text">
+    <string>Delete temporary files after work</string>
+   </property>
+   <property name="statusTip">
+    <string>The temporary files are the extracted tracks before merge or before their convert.</string>
+   </property>
+  </action>
   <actiongroup name="actionGroupName2">
    <action name="lang_en">
     <property name="checkable">
@@ -1888,7 +1830,7 @@
       <normaloff>:/img/FR.png</normaloff>:/img/FR.png</iconset>
     </property>
     <property name="text">
-     <string notr="true">&amp;Version Française</string>
+     <string notr="true">&amp;Version française</string>
     </property>
     <property name="statusTip">
      <string notr="true">Traduit le logiciel en langue Française.</string>
@@ -1907,6 +1849,21 @@
     </property>
     <property name="statusTip">
      <string notr="true">Změnit jazyk rozhraní na češtinu.</string>
+    </property>
+   </action>
+   <action name="lang_es">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/ES.png</normaloff>img/ES.png</iconset>
+    </property>
+    <property name="text">
+     <string notr="true">Versión en español</string>
+    </property>
+    <property name="statusTip">
+     <string notr="true">Traduce el software al español.</string>
     </property>
    </action>
   </actiongroup>
@@ -1932,38 +1889,6 @@
     <hint type="destinationlabel">
      <x>82</x>
      <y>612</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>soft_quit_2</sender>
-   <signal>triggered()</signal>
-   <receiver>mkv_extractor_qt5</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>307</x>
-     <y>254</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>soft_quit</sender>
-   <signal>clicked()</signal>
-   <receiver>mkv_extractor_qt5</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>613</x>
-     <y>529</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>328</x>
-     <y>285</y>
     </hint>
    </hints>
   </connection>

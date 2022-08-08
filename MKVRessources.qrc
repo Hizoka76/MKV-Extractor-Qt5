@@ -37,6 +37,7 @@
     <file>img/emblem-question.svg</file>
     <file>img/emblem-succed.svg</file>
     <file>img/EN.png</file>
+    <file>img/ES.png</file>
     <file>img/ffmpeg.png</file>
     <file>img/folder-open.png</file>
     <file>img/FR.png</file>
@@ -47,6 +48,8 @@
     <file>img/hint.svg</file>
     <file>img/image-missing.png</file>
     <file>img/image-x-generic.png</file>
+    <file>img/media-playback-pause.png</file>
+    <file>img/media-playback-start.png</file>
     <file>img/media-tape.png</file>
     <file>img/mkv-extractor-qt5.png</file>
     <file>img/mkvinfo.png</file>

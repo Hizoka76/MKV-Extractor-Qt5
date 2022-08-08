@@ -13,18 +13,25 @@ chemin="$(cd "$(dirname "$0")";pwd)"
 cd "${chemin}"
 
 ### Mise à jour des fichiers ts : -noobsolete
-pylupdate5 ui_MKVExtractorQt5.ui MKVExtractorQt5.py -ts MKVExtractorQt5_fr_FR.ts MKVExtractorQt5_cs_CZ.ts MKVExtractorQt5_es_ES.ts
-pylupdate5 QFileDialogCustom/QFileDialogCustom.py -ts QFileDialogCustom/QFileDialogCustom_fr_FR.ts QFileDialogCustom/QFileDialogCustom_cs_CZ.ts QFileDialogCustom/QFileDialogCustom_es_ES.ts
+pylupdate5 ui_MKVExtractorQt5.ui MKVExtractorQt5.py -ts Languages/MKVExtractorQt5_fr_FR.ts \
+    Languages/MKVExtractorQt5_cs_CZ.ts \
+    Languages/MKVExtractorQt5_es_ES.ts \
+    Languages/MKVExtractorQt5_en_US.ts
+
+pylupdate5 QFileDialogCustom/QFileDialogCustom.py -ts QFileDialogCustom/QFileDialogCustom_fr_FR.ts \
+    QFileDialogCustom/QFileDialogCustom_cs_CZ.ts \
+    QFileDialogCustom/QFileDialogCustom_es_ES.ts \
+    QFileDialogCustom/QFileDialogCustom_en_US.ts
 
 
 ### Conversion des fichiers ts en qm
 if [[ -e "/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease" ]]
 then
-    /usr/lib/x86_64-linux-gnu/qt5/bin/lrelease *.ts QFileDialogCustom/*.ts
+    /usr/lib/x86_64-linux-gnu/qt5/bin/lrelease Languages/*.ts QFileDialogCustom/*.ts
 
 elif [[ -e "/usr/lib/i386-linux-gnu/qt5/bin/lrelease" ]]
 then
-    /usr/lib/i386-linux-gnu/qt5/bin/lrelease *.ts QFileDialogCustom/*.ts
+    /usr/lib/i386-linux-gnu/qt5/bin/lrelease Languages/*.ts QFileDialogCustom/*.ts
 
 else
     echo "cannot find 'lrelease'"

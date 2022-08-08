@@ -29,8 +29,8 @@ Le logiciel permet de :
 
 
 ### Dépendances :
- - **AvConv / FFMpeg** [FFMPeg](https://ffmpeg.org/) : Pour la conversion audio.
- - **BDSup2Sub** [BDSup2Sub](https://github.com/mjuhasz/BDSup2Sub) : Pour la conversion des fichiers sous-titres Sup en Sub (Logiciel inclut dans MKV Extractor Qt5).
+ - **AvConv / FFMpeg** [FFMpeg](https://ffmpeg.org/) : Pour la conversion audio.
+ - **BDSup2Sub / FFMpeg** [BDSup2Sub](https://github.com/mjuhasz/BDSup2Sub) : Pour la conversion des fichiers sous-titres Sup en Sub (Logiciel inclut dans MKV Extractor Qt5).
  - **MKClean** [MKClean](https://matroska.org/downloads/mkclean.html) : Pour l'optimisation des fichiers matroska.
  - **MKVToolNix** [MKVToolNix](https://mkvtoolnix.download/index.html): **Obligatoire** pour récupérer les informations sur les pistes.
    - Contient la commande _mkvextract_ qui est primordiale.
@@ -70,12 +70,12 @@ The software allows to :
 
 
 ### Dependencies:
- - AvConv / FFMpeg** [FFMPeg](https://ffmpeg.org/) : For audio conversion.
- - BDSup2Sub** [BDSup2Sub](https://github.com/mjuhasz/BDSup2Sub) : For converting Sup to Sub files (software included in MKV Extractor Qt5).
- - MKClean** [MKClean](https://matroska.org/downloads/mkclean.html): For optimization of matroska files.
- - MKVToolNix** [MKVToolNix](https://mkvtoolnix.download/index.html): **Required** to get track information.
+ - **AvConv / FFMpeg** [FFMpeg](https://ffmpeg.org/) : For audio conversion.
+ - **BDSup2Sub / FFMpeg** [BDSup2Sub](https://github.com/mjuhasz/BDSup2Sub) : For converting Sup to Sub files (software included in MKV Extractor Qt5).
+ - **MKClean** [MKClean](https://matroska.org/downloads/mkclean.html): For optimization of matroska files.
+ - **MKVToolNix** [MKVToolNix](https://mkvtoolnix.download/index.html): **Required** to get track information.
    - Contains the _mkvextract_ command which is essential.
    - Also contains _mkvmerge_ to re-encapsulate tracks.
- - MKVToolNixGui** [MKVToolNixGui](https://mkvtoolnix.download/index.html): To display all information of the matroska file from MKVToolNix.
- - MKValidator** [MKValidator](https://matroska.org/downloads/mkvalidator.html): To check the matroska files.
- - QTesseract5** [QTesseract5](https://github.com/Hizoka76/QTesseract5): For automatic conversion of subtitles to srt with _tesseract_.
+ - **MKVToolNixGui** [MKVToolNixGui](https://mkvtoolnix.download/index.html): To display all information of the matroska file from MKVToolNix.
+ - **MKValidator** [MKValidator](https://matroska.org/downloads/mkvalidator.html): To check the matroska files.
+ - **QTesseract5** [QTesseract5](https://github.com/Hizoka76/QTesseract5): For automatic conversion of subtitles to srt with _tesseract_.

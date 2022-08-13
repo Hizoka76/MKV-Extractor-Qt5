@@ -43,20 +43,11 @@ class QFileDialogCustom(QFileDialog):
         # Création d'un QTranslator
         appTranslator = QTranslator()
 
-        # Pour la version française
-        if Language == "fr_FR":
-            find = appTranslator.load("QFileDialogCustom_fr_FR", AppFolder)
+        # Traductions disponibles
+        if Language in ("fr_FR", "cs_CZ", "es_ES", "tr_TR"):
+            find = appTranslator.load("QFileDialogCustom{}".format(Configs.value("Language")), AppFolder)
 
-            # Chargement de la traduction
-            if find:
-                App.installTranslator(appTranslator)
-
-
-        # Pour la version tchèque
-        elif Language == "cs_CZ":
-            find = appTranslator.load("QFileDialogCustom_cs_CZ", AppFolder)
-
-            # Chargement de la traduction
+            # Chargement de la traduction si elle est dispo
             if find:
                 App.installTranslator(appTranslator)
 

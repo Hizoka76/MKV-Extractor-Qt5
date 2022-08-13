@@ -3,7 +3,7 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1574"/>
+        <location filename="../MKVExtractorQt5.py" line="1551"/>
         <source>About MKV Extractor Gui</source>
         <translation>O rozhraní MKV Extractor Gui</translation>
     </message>
@@ -13,7 +13,7 @@
         <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;MKV Extractor Qt v{}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Rozhraní pro vytahování, úpravy a opětovné zabalení stop souboru matroska (MKV).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Tento program následuje po několika dalších, jež byly programovány v Bash a to kodek v python3 + QT5.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Tento program je licencován pod &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;&lt;a href=&quot;{}&quot;&gt;Creative Commons BY-NC-SA&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Velké poděkování fórům pro python &lt;a href=&quot;http://www.developpez.net/forums/f96/autres-langages/python-zope/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;developpez.net&lt;/span&gt;&lt;/a&gt; za jejich trpělivost.&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;Vytvořeno &lt;span style=&quot; font-weight:600;&quot;&gt;Belleguic Terence&lt;/span&gt; (Hizoka), listopad 2013&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1575"/>
+        <location filename="../MKVExtractorQt5.py" line="1552"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;MKV Extractor Qt v{}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;GUI to extract/edit/remux the tracks of a matroska (MKV) file.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;This program follows several others that were coded in Bash and it codec in python3 + QT5.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;This software is licensed under &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;&lt;a href=&quot;{}&quot;&gt;GNU GPL v3&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Software&apos;s page on &lt;a href=&quot;https://github.com/Hizoka76/MKV-Extractor-Qt5&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;github&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;ppa&apos;s page on &lt;a href=&quot;https://launchpad.net/~hizo/+archive/ubuntu/mkv-extractor-gui&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;launchpad&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;Created by &lt;span style=&quot; font-weight:600;&quot;&gt;Belleguic Terence&lt;/span&gt; (Hizoka), November 2013&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -21,112 +21,112 @@
 <context>
     <name>Actions</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1685"/>
+        <location filename="../MKVExtractorQt5.py" line="1662"/>
         <source>&amp;View MKV information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1690"/>
+        <location filename="../MKVExtractorQt5.py" line="1667"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkvtoolnix-gui needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1687"/>
+        <location filename="../MKVExtractorQt5.py" line="1664"/>
         <source>Display information about the MKV file with mkvinfo.</source>
         <translation type="unfinished">Zobrazit informace o souboru MKV a MKVInfo.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1689"/>
+        <location filename="../MKVExtractorQt5.py" line="1666"/>
         <source>&amp;Edit MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1691"/>
+        <location filename="../MKVExtractorQt5.py" line="1668"/>
         <source>Open the MKV file with mkvmerge GUI for more modifications.</source>
         <translation type="unfinished">Otevřít soubor MKV s rozhraním MKV Merge pro více úprav.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1693"/>
+        <location filename="../MKVExtractorQt5.py" line="1670"/>
         <source>&amp;Check MKV file</source>
         <translation type="unfinished">&amp;Ověřit soubor MKV</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1694"/>
+        <location filename="../MKVExtractorQt5.py" line="1671"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkvalidator needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1695"/>
+        <location filename="../MKVExtractorQt5.py" line="1672"/>
         <source>Verify Matroska files for specification conformance with MKValidator.</source>
         <translation type="unfinished">Ověřit soubory Matroska kvůli souladu specifikace s MKValidator.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1697"/>
+        <location filename="../MKVExtractorQt5.py" line="1674"/>
         <source>&amp;Optimize MKV file</source>
         <translation type="unfinished">&amp;Vyladit soubor MKV</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1698"/>
+        <location filename="../MKVExtractorQt5.py" line="1675"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkclean needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1699"/>
+        <location filename="../MKVExtractorQt5.py" line="1676"/>
         <source>Clean/Optimize Matroska files with MKClean.</source>
         <translation type="unfinished">Vyčistit/Vyladit soubor Matroska, který je již zabalen pomocí MKClean.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1701"/>
+        <location filename="../MKVExtractorQt5.py" line="1678"/>
         <source>&amp;Play MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1702"/>
+        <location filename="../MKVExtractorQt5.py" line="1679"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1703"/>
+        <location filename="../MKVExtractorQt5.py" line="1680"/>
         <source>Open the MKV file with the default application.</source>
         <translation type="unfinished">Otevřít soubor MKV s výchozím programem.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1705"/>
+        <location filename="../MKVExtractorQt5.py" line="1682"/>
         <source>&amp;Start job queue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1706"/>
+        <location filename="../MKVExtractorQt5.py" line="1683"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) Open a mkv file.&lt;br/&gt;2) Tick tracks before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1707"/>
+        <location filename="../MKVExtractorQt5.py" line="1684"/>
         <source>Launch extract/convert/mux tracks.</source>
         <translation type="unfinished">Spustit vytahování/převod/balení stop.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1709"/>
+        <location filename="../MKVExtractorQt5.py" line="1686"/>
         <source>Pause</source>
         <translation type="unfinished">Pozastavit</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1710"/>
+        <location filename="../MKVExtractorQt5.py" line="1687"/>
         <source>Press button to pause the jobs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1713"/>
+        <location filename="../MKVExtractorQt5.py" line="1690"/>
         <source>Press button to resume the jobs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1712"/>
+        <location filename="../MKVExtractorQt5.py" line="1689"/>
         <source>Resume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1711"/>
+        <location filename="../MKVExtractorQt5.py" line="1688"/>
         <source>The pause button needs python3 psutil2 module.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -134,63 +134,63 @@
 <context>
     <name>BDSup2Sub</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1769"/>
+        <location filename="../MKVExtractorQt5.py" line="1746"/>
         <source>Convert SUP/PGS files to SUB files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1775"/>
+        <location filename="../MKVExtractorQt5.py" line="1752"/>
         <source>Open the SUP/PGS files in BDSup2Sub</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1781"/>
+        <location filename="../MKVExtractorQt5.py" line="1758"/>
         <source>Expected location of the IDX file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1782"/>
+        <location filename="../MKVExtractorQt5.py" line="1759"/>
         <source>Since the IDX file is reused later, it must be saved under the address: {}</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1771"/>
+        <location filename="../MKVExtractorQt5.py" line="1748"/>
         <source>BDSup2Sub isn&apos;t installed, impossible to convert the SUP/PGS files with it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1772"/>
+        <location filename="../MKVExtractorQt5.py" line="1749"/>
         <source>BDSup2Sub isn&apos;t executable, impossible to convert the SUP/PGS files with it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1777"/>
+        <location filename="../MKVExtractorQt5.py" line="1754"/>
         <source>BDSup2Sub isn&apos;t installed, impossible to open SUP/PGS files to SUB files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1778"/>
+        <location filename="../MKVExtractorQt5.py" line="1755"/>
         <source>BDSup2Sub isn&apos;t executable, impossible to open SUP/PGS files to SUB files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1770"/>
+        <location filename="../MKVExtractorQt5.py" line="1747"/>
         <source>Convert the SUP/PGS files to SUB files with BDSup2Sub. A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1776"/>
+        <location filename="../MKVExtractorQt5.py" line="1753"/>
         <source>Open SUP/PGS files in BDSup2Sub. A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1773"/>
+        <location filename="../MKVExtractorQt5.py" line="1750"/>
         <source>Convert the SUP/PGS files to SUB files with BDSup2Sub.
 A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1779"/>
+        <location filename="../MKVExtractorQt5.py" line="1756"/>
         <source>Open the SUP/PGS files in BDSup2Sub gui for better configuration.
 A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
@@ -199,82 +199,82 @@ A click on checked item uncheck it.</source>
 <context>
     <name>Errors</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1610"/>
+        <location filename="../MKVExtractorQt5.py" line="1587"/>
         <source>The last file doesn&apos;t exist</source>
         <translation>Poslední soubor neexistuje</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1611"/>
+        <location filename="../MKVExtractorQt5.py" line="1588"/>
         <source>You have checked the option who reload the last file to the launch of MKV Extractor Qt, but this last file doesn&apos;t exist anymore.</source>
         <translation>Zaškrtnul jste volbu, která znovunahraje poslední soubor při spuštění MKV Extractor Qt, ale tento soubor už neexistuje.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1612"/>
+        <location filename="../MKVExtractorQt5.py" line="1589"/>
         <source>Wrong arguments</source>
         <translation>Špatné argumenty</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1613"/>
+        <location filename="../MKVExtractorQt5.py" line="1590"/>
         <source>The &lt;b&gt;{}&lt;/b&gt; file given as argument does not exist.</source>
         <translation>Soubor &lt;b&gt;{}&lt;/b&gt; zadaný jako argument neexistuje.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1614"/>
+        <location filename="../MKVExtractorQt5.py" line="1591"/>
         <source>&lt;b&gt;Too many arguments given:&lt;/b&gt;&lt;br/&gt; - {} </source>
         <translation>&lt;b&gt;Zadáno příliš mnoho argumentů:&lt;/b&gt;&lt;br/&gt; - {} </translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1615"/>
+        <location filename="../MKVExtractorQt5.py" line="1592"/>
         <source>Wrong value</source>
         <translation>Nesprávná hodnota</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1616"/>
+        <location filename="../MKVExtractorQt5.py" line="1593"/>
         <source>Wrong value for the &lt;b&gt;{}&lt;/b&gt; option, MKV Extractor Qt will use the default value.</source>
         <translation>Nesprávná hodnota pro volbu &lt;b&gt;{}&lt;/b&gt;, MKV Extractor Qt použije výchozí hodnotu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1617"/>
+        <location filename="../MKVExtractorQt5.py" line="1594"/>
         <source>Wrong path for the &lt;b&gt;{}&lt;/b&gt; option, MKV Extractor Qt will use the default path.</source>
         <translation>Nesprávná cesta pro volbu &lt;b&gt;{}&lt;/b&gt;, MKV Extractor Qt použije výchozí cestu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1618"/>
+        <location filename="../MKVExtractorQt5.py" line="1595"/>
         <source>No way to open this file</source>
         <translation>Soubor nelze otevřít</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1619"/>
+        <location filename="../MKVExtractorQt5.py" line="1596"/>
         <source>The file to open contains quotes (&quot;) in its name. It&apos;s impossible to open a file with this carac. Please rename it.</source>
         <translation>Soubor k otevření obsahuje ve svém názvu uvozovky (&quot;). Soubor s tímto znakem nelze otevřít. Přejmenujte jej, prosím.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1620"/>
+        <location filename="../MKVExtractorQt5.py" line="1597"/>
         <source>Space available</source>
         <translation>Dostupné místo</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1621"/>
+        <location filename="../MKVExtractorQt5.py" line="1598"/>
         <source>Not enough space available in the &lt;b&gt;{}&lt;/b&gt; folder.&lt;br/&gt;It is advisable to have at least twice the size of free space on the disk file.&lt;br&gt;Free disk space: &lt;b&gt;{}&lt;/b&gt;.&lt;br&gt;File size: &lt;b&gt;{}&lt;/b&gt;.</source>
         <translation>Nedostatek dostupného místa ve složce &lt;b&gt;{}&lt;/b&gt;.&lt;br/&gt; Doporučuje se mít na disku volného místa alespoň dvojnásobek velikosti souboru.&lt;br&gt;Uvolněte místo na disku: &lt;b&gt;{}&lt;/b&gt;.&lt;br&gt;Velikost souboru: &lt;b&gt;{}&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1622"/>
+        <location filename="../MKVExtractorQt5.py" line="1599"/>
         <source>Not enough space available in &lt;b&gt;{}&lt;/b&gt; folder.&lt;br/&gt;Free space in the disk: &lt;b&gt;{}&lt;/b&gt;&lt;br/&gt;File size: &lt;b&gt;{}&lt;/b&gt;.</source>
         <translation>Nedostatek dostupného místa ve složce &lt;b&gt;{}&lt;/b&gt;.&lt;br/&gt; Uvolněte místo na disku: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;Velikost souboru: &lt;b&gt;{}&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1623"/>
+        <location filename="../MKVExtractorQt5.py" line="1600"/>
         <source>Change the directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1624"/>
+        <location filename="../MKVExtractorQt5.py" line="1601"/>
         <source>I don&apos;t care</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1625"/>
+        <location filename="../MKVExtractorQt5.py" line="1602"/>
         <source>I want stop this</source>
         <translation type="unfinished"></translation>
     </message>
@@ -282,27 +282,27 @@ A click on checked item uncheck it.</source>
 <context>
     <name>FFMpeg</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1763"/>
+        <location filename="../MKVExtractorQt5.py" line="1740"/>
         <source>Convert SUP/PGS files to SUB files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1765"/>
+        <location filename="../MKVExtractorQt5.py" line="1742"/>
         <source>FFMpeg isn&apos;t installed, impossible to convert the SUP/PGS files with it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1766"/>
+        <location filename="../MKVExtractorQt5.py" line="1743"/>
         <source>FFMpeg isn&apos;t executable, impossible to convert the SUP/PGS files with it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1764"/>
+        <location filename="../MKVExtractorQt5.py" line="1741"/>
         <source>Convert the SUP/PGS files to SUB files with FFMpeg. A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1767"/>
+        <location filename="../MKVExtractorQt5.py" line="1744"/>
         <source>Convert the SUP/PGS files to SUB files with FFMpeg.
 A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
@@ -311,7 +311,7 @@ A click on checked item uncheck it.</source>
 <context>
     <name>Help</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1632"/>
+        <location filename="../MKVExtractorQt5.py" line="1609"/>
         <source>Help me!</source>
         <translation>Pomozte!</translation>
     </message>
@@ -321,7 +321,7 @@ A click on checked item uncheck it.</source>
         <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ztratil jste se? Potřebujete pomoci?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Obvykle jsou přítomny všechny nutné informace:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Čtěte informace ve stavovém řádku, když přejíždíte ukazovátkem myši nad prvky rozhraní&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pokud přesto máte potřebu ještě dalších informací:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Forum Ubuntu-fr.org: &lt;a href=&quot;https://forum.ubuntu-fr.org/viewtopic.php?id=1508741&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;topic&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;- Moje e-mailová adresa: &lt;a href=&quot;mailto:hizo@free.fr &quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;hizo@free.fr &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Děkuji vám za zájem, který věnujete tomuto programu.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1633"/>
+        <location filename="../MKVExtractorQt5.py" line="1610"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Are you lost? Do you need help? &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Normally all necessary information is present: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Read the informations in the status bar when moving the mouse on widgets &lt;/p&gt;&lt;p&gt;- Read the informations in some tooltips, wait 2-3 secondes on actions or buttons.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Though, if you need more information: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Software&apos;s page on &lt;a href=&quot;https://github.com/Hizoka76/MKV-Extractor-Qt5&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;github&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt; - ppa&apos;s page on &lt;a href=&quot;https://launchpad.net/~hizo/+archive/ubuntu/mkv-extractor-gui&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;launchpad&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- Forum Ubuntu-fr.org: &lt;a href=&quot;https://forum.ubuntu-fr.org/viewtopic.php?id=1508741&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;topic&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;- My email address: &lt;a href=&quot;mailto:hizo@free.fr&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;hizo@free.fr &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Thank you for your interest in this program.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -928,12 +928,12 @@ Jaký software chceš používat?</translation>
 <context>
     <name>MKVMerge</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1635"/>
+        <location filename="../MKVExtractorQt5.py" line="1612"/>
         <source>MKVMerge returns errors during the read of the MKV file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1636"/>
+        <location filename="../MKVExtractorQt5.py" line="1613"/>
         <source>MKVMerge returns warning during the read of the MKV file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -941,17 +941,17 @@ Jaký software chceš používat?</translation>
 <context>
     <name>Main</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1587"/>
+        <location filename="../MKVExtractorQt5.py" line="1564"/>
         <source>Use the right click for view options.</source>
         <translation>Použijte klepnutí pravým tlačítkem myši pro zobrazení voleb.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1595"/>
+        <location filename="../MKVExtractorQt5.py" line="1572"/>
         <source>All compatible Files</source>
         <translation>Všechny nevylučující se soubory</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1596"/>
+        <location filename="../MKVExtractorQt5.py" line="1573"/>
         <source>Matroska Files</source>
         <translation>Soubory Matroska</translation>
     </message>
@@ -961,12 +961,12 @@ Jaký software chceš používat?</translation>
         <translation type="obsolete">Jiné soubory</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1599"/>
+        <location filename="../MKVExtractorQt5.py" line="1576"/>
         <source>Do not ask again</source>
         <translation>Neptat se znovu</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1600"/>
+        <location filename="../MKVExtractorQt5.py" line="1577"/>
         <source>File needs to be converted</source>
         <translation>Soubor je třeba převést</translation>
     </message>
@@ -978,32 +978,32 @@ Do you want convert this file in mkv ?</source>
 Chcete tento soubor převést do mkv?</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1602"/>
+        <location filename="../MKVExtractorQt5.py" line="1579"/>
         <source>MKVMerge Warning</source>
         <translation>Varování MKVMerge</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1603"/>
+        <location filename="../MKVExtractorQt5.py" line="1580"/>
         <source>A warning has occurred during the convertion of the file, read the feedback informations.</source>
         <translation>Během převádění souboru se objevilo varování. Čtěte zpětnovazební informace.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1604"/>
+        <location filename="../MKVExtractorQt5.py" line="1581"/>
         <source>Do not warn me</source>
         <translation>Nevarovat</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1605"/>
+        <location filename="../MKVExtractorQt5.py" line="1582"/>
         <source>Choose the out folder of the new mkv file</source>
         <translation>Vyberte výstupní složku pro nový soubor mkv</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1607"/>
+        <location filename="../MKVExtractorQt5.py" line="1584"/>
         <source>Already existing file</source>
         <translation>Soubor již existuje</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1608"/>
+        <location filename="../MKVExtractorQt5.py" line="1585"/>
         <source>The &lt;b&gt;{}&lt;/b&gt; is already existing, overwrite it?</source>
         <translation>&lt;b&gt;{}&lt;/b&gt; již existuje. Přepsat jej?</translation>
     </message>
@@ -1028,67 +1028,67 @@ Chcete tento soubor převést do mkv?</translation>
         <translation type="obsolete">Zrušit práci</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1638"/>
+        <location filename="../MKVExtractorQt5.py" line="1615"/>
         <source>Skip the existing file test.</source>
         <translation>Přeskočit ověření existence souboru.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1639"/>
+        <location filename="../MKVExtractorQt5.py" line="1616"/>
         <source>Quality of the ac3 file converted.</source>
         <translation>Jakost převedeného souboru ac3.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1640"/>
+        <location filename="../MKVExtractorQt5.py" line="1617"/>
         <source>Power of the ac3 file converted.</source>
         <translation>Výkon převedeného souboru ac3.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1641"/>
+        <location filename="../MKVExtractorQt5.py" line="1618"/>
         <source>Skip the free space disk test.</source>
         <translation>Přeskočit ověření volného prostoru.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1643"/>
+        <location filename="../MKVExtractorQt5.py" line="1620"/>
         <source>View more informations in feedback box.</source>
         <translation>Zobrazit více informací v okně s informační zpětnou vazbou.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1642"/>
+        <location filename="../MKVExtractorQt5.py" line="1619"/>
         <source>Delete temporary files.</source>
         <translation type="unfinished">Smazat dočasné soubory.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1644"/>
+        <location filename="../MKVExtractorQt5.py" line="1621"/>
         <source>Remove the error message if the last file doesn&apos;t exist.</source>
         <translation>Odstranit tuto chybovou zprávu, pokud už poslední soubor neexistuje.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1645"/>
+        <location filename="../MKVExtractorQt5.py" line="1622"/>
         <source>Show or hide the information feedback box.</source>
         <translation>Ukázat nebo skrýt okno s informační zpětnou vazbou.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1646"/>
+        <location filename="../MKVExtractorQt5.py" line="1623"/>
         <source>Anchor or loose information feedback box.</source>
         <translation>Ukotvit nebo odpojit okno s informační zpětnou vazbou.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1647"/>
+        <location filename="../MKVExtractorQt5.py" line="1624"/>
         <source>The folder to use for extract temporaly the attachements file to view them.</source>
         <translation>Složka, která se má použít pro dočasné vytažení připojených souborů a jejich zobrazení.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1648"/>
+        <location filename="../MKVExtractorQt5.py" line="1625"/>
         <source>Use FFMpeg for the conversion.</source>
         <translation>Použít FFMpeg pro převod.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1649"/>
+        <location filename="../MKVExtractorQt5.py" line="1626"/>
         <source>Keep in memory the last file opened for open it at the next launch of MKV Extractor Qt.</source>
         <translation>Uchovat v paměti naposledy otevřený soubor pro jeho otevření při příštím spuštění MKV Extractor Qt.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1651"/>
+        <location filename="../MKVExtractorQt5.py" line="1628"/>
         <source>Software to use for just encapsulate.</source>
         <translation>Program pro jednoduché zabalení.</translation>
     </message>
@@ -1098,118 +1098,118 @@ Chcete tento soubor převést do mkv?</translation>
         <translation type="obsolete">Přeskočit návrh programu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1653"/>
+        <location filename="../MKVExtractorQt5.py" line="1630"/>
         <source>Skip the confirmation of the conversion.</source>
         <translation>Přeskočit potvrzení převodu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1654"/>
+        <location filename="../MKVExtractorQt5.py" line="1631"/>
         <source>Hide the information of the conversion warning.</source>
         <translation>Skrýt upozornění na převod.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1655"/>
+        <location filename="../MKVExtractorQt5.py" line="1632"/>
         <source>Folder of the MKV files.</source>
         <translation>Složka se soubory MKV.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1656"/>
+        <location filename="../MKVExtractorQt5.py" line="1633"/>
         <source>Output folder for the new MKV files.</source>
         <translation>Výstupní složka pro soubory MKV.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1657"/>
+        <location filename="../MKVExtractorQt5.py" line="1634"/>
         <source>Software language to use.</source>
         <translation>Jazyk programu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1658"/>
+        <location filename="../MKVExtractorQt5.py" line="1635"/>
         <source>Remove the Qt file who keeps the list of the recent files for the window selection.</source>
         <translation>Odstranit soubor Qt, který uchovává seznam nedávných souborů výběrového okna.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1659"/>
+        <location filename="../MKVExtractorQt5.py" line="1636"/>
         <source>Use the same input and output folder.</source>
         <translation>Použít stejnou vstupní a výstupní složku.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1660"/>
+        <location filename="../MKVExtractorQt5.py" line="1637"/>
         <source>Automatically rename the output file name in MEG_FileName.</source>
         <translation>Automaticky přejmenovat název výstupního souboru na MEG_NázevSouboru.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1661"/>
+        <location filename="../MKVExtractorQt5.py" line="1638"/>
         <source>Switch to stereo during conversion.</source>
         <translation>Během převodu přepnout do sterea.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1662"/>
+        <location filename="../MKVExtractorQt5.py" line="1639"/>
         <source>Opening subtitles before encapsulation.</source>
         <translation>Otevřít titulky před zabalením.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1663"/>
+        <location filename="../MKVExtractorQt5.py" line="1640"/>
         <source>Display or hide the system tray icon.</source>
         <translation>Zobrazit nebo skrýt ikonu programu v oznamovací oblasti panelu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1665"/>
+        <location filename="../MKVExtractorQt5.py" line="1642"/>
         <source>Keep in memory the aspect and the position of the window for the next opened.</source>
         <translation>Uchovat v paměti velikost okna a jeho polohu pro jeho příští otevření.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1589"/>
+        <location filename="../MKVExtractorQt5.py" line="1566"/>
         <source>This location is valid.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1590"/>
+        <location filename="../MKVExtractorQt5.py" line="1567"/>
         <source>This location is not valid.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1591"/>
+        <location filename="../MKVExtractorQt5.py" line="1568"/>
         <source>No location for this command.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1592"/>
+        <location filename="../MKVExtractorQt5.py" line="1569"/>
         <source>This location is valid but not executable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1593"/>
+        <location filename="../MKVExtractorQt5.py" line="1570"/>
         <source>Please select the executable file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1650"/>
+        <location filename="../MKVExtractorQt5.py" line="1627"/>
         <source>Hide the disabled options.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1666"/>
+        <location filename="../MKVExtractorQt5.py" line="1643"/>
         <source>Qt decoration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1664"/>
+        <location filename="../MKVExtractorQt5.py" line="1641"/>
         <source>Minimize the window when it closed with the X and when the systray is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1601"/>
+        <location filename="../MKVExtractorQt5.py" line="1578"/>
         <source>This file is not supported by MKVExtract.
 Do you want convert this file in mkv ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1597"/>
+        <location filename="../MKVExtractorQt5.py" line="1574"/>
         <source>Other files that need to be converted to mkv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1652"/>
+        <location filename="../MKVExtractorQt5.py" line="1629"/>
         <source>Skip the proposal to software to use.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1217,12 +1217,12 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>Options</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1668"/>
+        <location filename="../MKVExtractorQt5.py" line="1645"/>
         <source>Convert in AC3</source>
         <translation>Převod do AC3</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1669"/>
+        <location filename="../MKVExtractorQt5.py" line="1646"/>
         <source>Convert audio tracks automatically to AC3.</source>
         <translation>Převést automaticky zvukové stopy do AC3.</translation>
     </message>
@@ -1237,12 +1237,12 @@ Do you want convert this file in mkv ?</source>
         <translation type="obsolete">Dočasné soubory jsou vytažené stopy.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1670"/>
+        <location filename="../MKVExtractorQt5.py" line="1647"/>
         <source>Use FFMpeg for the conversion.</source>
         <translation>Použít FFMpeg pro převod.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1672"/>
+        <location filename="../MKVExtractorQt5.py" line="1649"/>
         <source>Increase the sound power</source>
         <translation>Zvětšit zvukový výkon</translation>
     </message>
@@ -1257,12 +1257,12 @@ Do you want convert this file in mkv ?</source>
         <translation type="obsolete">Znásobení zvukového výkonu {}.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1674"/>
+        <location filename="../MKVExtractorQt5.py" line="1651"/>
         <source>Power x {}</source>
         <translation>Výkon x {}</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1675"/>
+        <location filename="../MKVExtractorQt5.py" line="1652"/>
         <source>List of available flow rates of conversion</source>
         <translation>Seznam dostupných převodních datových toků</translation>
     </message>
@@ -1272,32 +1272,32 @@ Do you want convert this file in mkv ?</source>
         <translation type="obsolete">Převede jakost u zvuku na {} kbits/s.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1677"/>
+        <location filename="../MKVExtractorQt5.py" line="1654"/>
         <source>{} kbits/s</source>
         <translation>{} kbits/s</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1678"/>
+        <location filename="../MKVExtractorQt5.py" line="1655"/>
         <source>Switch to stereo during conversion</source>
         <translation>Během převodu přepnout do sterea</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1679"/>
+        <location filename="../MKVExtractorQt5.py" line="1656"/>
         <source>The audio will not use the same number of channels, the audio will be stereo (2 channels).</source>
         <translation>Zvuk nezachová stejný počet kanálů. Zvuk bude stereo (2 kanály).</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1680"/>
+        <location filename="../MKVExtractorQt5.py" line="1657"/>
         <source>Opening subtitles before encapsulation</source>
         <translation>Otevřít titulky před zabalením</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1681"/>
+        <location filename="../MKVExtractorQt5.py" line="1658"/>
         <source>Auto opening of subtitle srt files for correction. The software will be paused.</source>
         <translation>Otevřít automaticky soubory titulků srt pro jejich opravení. Tento program bude pozastaven.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1682"/>
+        <location filename="../MKVExtractorQt5.py" line="1659"/>
         <source>New value for &lt;span style=&quot; color:#0000c0;&quot;&gt;{}&lt;/span&gt; option: &lt;span style=&quot; color:#0000c0;&quot;&gt;{}&lt;/span&gt;</source>
         <translation>Nová hodnota pro &lt;span style=&quot; color:#0000c0;&quot;&gt;{}&lt;/span&gt; : &lt;span style=&quot; color:#0000c0;&quot;&gt;{}&lt;/span&gt;</translation>
     </message>
@@ -1322,22 +1322,22 @@ Do you want convert this file in mkv ?</source>
         <translation type="obsolete">Výkon zvukových stop nebude měněn.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1683"/>
+        <location filename="../MKVExtractorQt5.py" line="1660"/>
         <source>Use the {} style.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1671"/>
+        <location filename="../MKVExtractorQt5.py" line="1648"/>
         <source>If FFMpeg and AvConv are installed, use FFMpeg.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1673"/>
+        <location filename="../MKVExtractorQt5.py" line="1650"/>
         <source>Multiplying audio power by {}. A click on item checked uncheck all.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1676"/>
+        <location filename="../MKVExtractorQt5.py" line="1653"/>
         <source>Convert the audio quality in {} kbits/s. A click on item checked uncheck all.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1361,12 +1361,12 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>QTextEditCustom</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="220"/>
+        <location filename="../MKVExtractorQt5.py" line="207"/>
         <source>Clean the information fee&amp;dback box</source>
         <translation>Vyčistit okno s &amp;informacemi</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="227"/>
+        <location filename="../MKVExtractorQt5.py" line="214"/>
         <source>&amp;Export info to ~/InfoMKVExtractorQt5.txt</source>
         <translation>Vyv&amp;edení informací do souboru ~/InfoMKVExtractorQt5.txt</translation>
     </message>
@@ -1374,63 +1374,63 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>Qtesseract5</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1748"/>
+        <location filename="../MKVExtractorQt5.py" line="1725"/>
         <source>Convert SUB files to SRT files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1754"/>
+        <location filename="../MKVExtractorQt5.py" line="1731"/>
         <source>Open the SUB files in Qtesseract5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1750"/>
+        <location filename="../MKVExtractorQt5.py" line="1727"/>
         <source>Qtesseract5 isn&apos;t installed, impossible to convert the SUB files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1751"/>
+        <location filename="../MKVExtractorQt5.py" line="1728"/>
         <source>Qtesseract5 isn&apos;t executable, impossible to convert the SUB files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1756"/>
+        <location filename="../MKVExtractorQt5.py" line="1733"/>
         <source>Qtesseract5 isn&apos;t installed, impossible to open the SUB files with it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1757"/>
+        <location filename="../MKVExtractorQt5.py" line="1734"/>
         <source>Qtesseract5 isn&apos;t executable, impossible to open the SUB files with it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1760"/>
+        <location filename="../MKVExtractorQt5.py" line="1737"/>
         <source>Expected location of the SRT file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1761"/>
+        <location filename="../MKVExtractorQt5.py" line="1738"/>
         <source>Since the SRT file is reused later, it must be saved under the address: {}</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1749"/>
+        <location filename="../MKVExtractorQt5.py" line="1726"/>
         <source>Convert the SUB files to SRT with Qtesseract5. A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1752"/>
+        <location filename="../MKVExtractorQt5.py" line="1729"/>
         <source>Convert the SUB files to SRT with Qtesseract5.
  A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1755"/>
+        <location filename="../MKVExtractorQt5.py" line="1732"/>
         <source>Open the SUB files in Qtesseract5. A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1758"/>
+        <location filename="../MKVExtractorQt5.py" line="1735"/>
         <source>Open the SUB files in Qtesseract5 gui for better configuration.
  A click on checked item uncheck it.</source>
         <translation type="unfinished"></translation>
@@ -1439,12 +1439,12 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>RemuxRename</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1727"/>
+        <location filename="../MKVExtractorQt5.py" line="1704"/>
         <source>Always use the default file rename (MEG_FileName)</source>
         <translation>Vždy použít výchozí způsob přejmenování (MEG_NázevSouboru)</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1728"/>
+        <location filename="../MKVExtractorQt5.py" line="1705"/>
         <source>Choose the output file name</source>
         <translation>Vybrat název výstupního souboru</translation>
     </message>
@@ -1452,37 +1452,37 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>Select</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1715"/>
+        <location filename="../MKVExtractorQt5.py" line="1692"/>
         <source>Selected file: {}.</source>
         <translation>Vybraný soubor: {}.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1716"/>
+        <location filename="../MKVExtractorQt5.py" line="1693"/>
         <source>Selected folder: {}.</source>
         <translation>Vybraná složka: {}.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1717"/>
+        <location filename="../MKVExtractorQt5.py" line="1694"/>
         <source>Always use the same output folder as the input MKV file (automatically updated)</source>
         <translation>Vždy použít stejnou výstupní složku jako vstupní soubor MKV (aktualizováno automaticky)</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1719"/>
+        <location filename="../MKVExtractorQt5.py" line="1696"/>
         <source>Keep in memory the last file opened for open it at the next launch of MKV Extractor Qt (to use for tests)</source>
         <translation>Uchovat v paměti naposledy otevřený soubor pro jeho otevření při příštím spuštění MKV Extractor Qt (k užití při zkoušení)</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1720"/>
+        <location filename="../MKVExtractorQt5.py" line="1697"/>
         <source>Select the input MKV File</source>
         <translation>Vybrat vstupní soubor MKV</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1721"/>
+        <location filename="../MKVExtractorQt5.py" line="1698"/>
         <source>Select the output MKV file</source>
         <translation>Vybrat výstupní soubor MKV</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1722"/>
+        <location filename="../MKVExtractorQt5.py" line="1699"/>
         <source>Select the output folder</source>
         <translation>Vybrat výstupní složku</translation>
     </message>
@@ -1490,22 +1490,22 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>SysTray</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1580"/>
+        <location filename="../MKVExtractorQt5.py" line="1557"/>
         <source>Quit</source>
         <translation>Ukončit</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1581"/>
+        <location filename="../MKVExtractorQt5.py" line="1558"/>
         <source>The command(s) have finished</source>
         <translation>Příkaz(y) byl dokončen(y)</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1582"/>
+        <location filename="../MKVExtractorQt5.py" line="1559"/>
         <source>The &lt;b&gt;{}&lt;/b&gt; command have finished its work.</source>
         <translation>Příkazy &lt;b&gt;{}&lt;/b&gt; dokončil svoji práci.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1583"/>
+        <location filename="../MKVExtractorQt5.py" line="1560"/>
         <source>All commands have finished their work.</source>
         <translation>Všechny příkazy dokončily svoji práci.</translation>
     </message>
@@ -1513,7 +1513,7 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>TheyTalkAbout</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1577"/>
+        <location filename="../MKVExtractorQt5.py" line="1554"/>
         <source>They talk about MKV Extractor Gui</source>
         <translation>Mluví o MKV Extractor Gui</translation>
     </message>
@@ -1523,7 +1523,7 @@ Do you want convert this file in mkv ?</source>
         <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://sysads.co.uk/2014/09/install-mkv-extractor-qt-5-1-4-ubuntu-14-04/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;sysads.co.uk&lt;/span&gt;&lt;/a&gt; (angličtina)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.softpedia.com/reviews/linux/mkv-extractor-qt-review-496919.shtml&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;softpedia.com&lt;/span&gt;&lt;/a&gt; (English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://linux.softpedia.com/get/Multimedia/Video/MKV-Extractor-Qt-103555.shtml&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;linux.softpedia.com&lt;/span&gt;&lt;/a&gt; (English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://zenway.ru/page/mkv-extractor-qt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;zenway.ru&lt;/span&gt;&lt;/a&gt; (Russian)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://linuxg.net/how-to-install-mkv-extractor-qt-5-1-4-on-ubuntu-14-04-linux-mint-17-elementary-os-0-3-deepin-2014-and-other-ubuntu-14-04-derivatives/&quot;&gt;linuxg.net&lt;/span&gt;&lt;/a&gt; (angličtina)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://la-vache-libre.org/mkv-extractor-gui-virer-les-sous-titres-inutiles-de-vos-fichiers-mkv-et-plus-encore/&quot;&gt;la-vache-libre.org&lt;/span&gt;&lt;/a&gt; (francouzština)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://passionexubuntu.altervista.org/index.php/it/kubuntu/1152-mkv-extractor-qt-vs-5-1-3-kde.html&quot;&gt;passionexubuntu.altervista.org&lt;/span&gt;&lt;/a&gt; (Italian)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1578"/>
+        <location filename="../MKVExtractorQt5.py" line="1555"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://sysads.co.uk/2014/09/install-mkv-extractor-qt-5-1-4-ubuntu-14-04/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;sysads.co.uk&lt;/span&gt;&lt;/a&gt; (English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.softpedia.com/reviews/linux/mkv-extractor-qt-review-496919.shtml&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;softpedia.com&lt;/span&gt;&lt;/a&gt; (English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://linux.softpedia.com/get/Multimedia/Video/MKV-Extractor-Qt-103555.shtml&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;linux.softpedia.com&lt;/span&gt;&lt;/a&gt; (English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://zenway.ru/page/mkv-extractor-qt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;zenway.ru&lt;/span&gt;&lt;/a&gt; (Russian)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://linuxg.net/how-to-install-mkv-extractor-qt-5-1-4-on-ubuntu-14-04-linux-mint-17-elementary-os-0-3-deepin-2014-and-other-ubuntu-14-04-derivatives/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;linuxg.net&lt;/span&gt;&lt;/a&gt; (English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://la-vache-libre.org/mkv-extractor-gui-virer-les-sous-titres-inutiles-de-vos-fichiers-mkv-et-plus-encore/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;la-vache-libre.org&lt;/span&gt;&lt;/a&gt; (French)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://passionexubuntu.altervista.org/index.php/it/kubuntu/1152-mkv-extractor-qt-vs-5-1-3-kde.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;passionexubuntu.altervista.org&lt;/span&gt;&lt;/a&gt; (Italian)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/darealshinji/mkv-extractor-qt5&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;an unofficial github &lt;/span&gt;&lt;/a&gt;(English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gamblisfx.com/mkv-extractor-qt-5-2-1-extract-audio-and-video-from-mkv-files/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;gamblisfx.com&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/darealshinji/mkv-extractor-qt5&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;/&gt;&lt;/a&gt;(English)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://aur.archlinux.org/packages/mkv-extractor-qt/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;An unofficial aur package&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1531,82 +1531,82 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>Track</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1730"/>
+        <location filename="../MKVExtractorQt5.py" line="1707"/>
         <source>audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1731"/>
+        <location filename="../MKVExtractorQt5.py" line="1708"/>
         <source>subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1732"/>
+        <location filename="../MKVExtractorQt5.py" line="1709"/>
         <source>video</source>
         <translation>Obraz</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1734"/>
+        <location filename="../MKVExtractorQt5.py" line="1711"/>
         <source>If the remuxed file has reading problems, change this value.</source>
         <translation>Pokud má nově zabalený soubor potíže se čtením, změňte tuto hodnotu.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1735"/>
+        <location filename="../MKVExtractorQt5.py" line="1712"/>
         <source>Change the language if it&apos;s not right. &apos;und&apos; means &apos;Undetermined&apos;.</source>
         <translation>Měnit jazyk, pokud není správný. &apos;und&apos; znamená &apos;nestanovený&apos;.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1736"/>
+        <location filename="../MKVExtractorQt5.py" line="1713"/>
         <source>This track can be renamed and must contain an extension to avoid reading errors by clicking on the icon.</source>
         <translation type="unfinished">Tato stopa může být přejmenována a musí obsahovat příponu kvůli vyhnutí se chybám při čtení pomocí dvojitého klepnutí.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1737"/>
+        <location filename="../MKVExtractorQt5.py" line="1714"/>
         <source>chapters</source>
         <translation>Kapitoly</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1738"/>
+        <location filename="../MKVExtractorQt5.py" line="1715"/>
         <source>Work with track number {}.</source>
         <translation>Pracovat se stopou číslo {}.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1739"/>
+        <location filename="../MKVExtractorQt5.py" line="1716"/>
         <source>Work with attachment number {}.</source>
         <translation>Pracovat na připojeném souboru číslo {}.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1740"/>
+        <location filename="../MKVExtractorQt5.py" line="1717"/>
         <source>Work with {}.</source>
         <translation>Pracovat na {}.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1741"/>
+        <location filename="../MKVExtractorQt5.py" line="1718"/>
         <source>This track can be renamed by doubleclicking.</source>
         <translation>Tato stopa může být přejmenována pomocí dvojitého klepnutí.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1742"/>
+        <location filename="../MKVExtractorQt5.py" line="1719"/>
         <source>tags</source>
         <translation>Značky</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1743"/>
+        <location filename="../MKVExtractorQt5.py" line="1720"/>
         <source>This track is a {} type and cannot be previewed.</source>
         <translation>Tato stopa je typu {} a nelze ji zobrazit.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1745"/>
+        <location filename="../MKVExtractorQt5.py" line="1722"/>
         <source>This attachment file is a {} type, it can be extracted (speedy) and viewed by clicking.</source>
         <translation>Tento připojený soubor je typu {}. Lze jej vytáhnout (rychlý) a zobrazit pomocí klepnutí.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1746"/>
+        <location filename="../MKVExtractorQt5.py" line="1723"/>
         <source>Change the fps value if needed. Useful in case of audio lag. Normal : 23.976, 25.000 and 30.000.</source>
         <translation>V případě potřeby vybrat dobrý počet obrázků za sekundu. Užitečné v případě prodlevy zvuku. Normální: 23.976, 25.000 a 30.000.</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1744"/>
+        <location filename="../MKVExtractorQt5.py" line="1721"/>
         <source>This track is a {} type and can be previewed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1614,27 +1614,27 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>Tracks</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1784"/>
+        <location filename="../MKVExtractorQt5.py" line="1761"/>
         <source>Click here to (un)select all tracks.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1785"/>
+        <location filename="../MKVExtractorQt5.py" line="1762"/>
         <source>Icon of the tracks, the attachments icons are clickable to view them.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1786"/>
+        <location filename="../MKVExtractorQt5.py" line="1763"/>
         <source>Name or information of the tracks. It&apos;s possible to edit them by double click.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1788"/>
+        <location filename="../MKVExtractorQt5.py" line="1765"/>
         <source>Codec or extension of the tracks. Only codec AAC can be modified.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1787"/>
+        <location filename="../MKVExtractorQt5.py" line="1764"/>
         <source>Audio and subtitles language or fps of the videos can be modified. Size of the attached files.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1642,7 +1642,7 @@ Do you want convert this file in mkv ?</source>
 <context>
     <name>UseMMG</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1724"/>
+        <location filename="../MKVExtractorQt5.py" line="1701"/>
         <source>MKV Merge Gui or MKV Extractor Qt ?</source>
         <translation>MKV Merge Gui nebo MKV Extractor Qt?</translation>
     </message>
@@ -1661,7 +1661,7 @@ Pokud potřebujete udělat jen toto, měli byste použít MMG (MKV Merge GUI), k
 Jaký software chceš používat?</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1725"/>
+        <location filename="../MKVExtractorQt5.py" line="1702"/>
         <source>You want extract and reencapsulate the tracks without use other options.
 
 If you just need to make this, you should use MKVToolNix-Gui (previously mmg) who is more adapted for this job.
@@ -1674,12 +1674,12 @@ What software do you want use ?
 <context>
     <name>WaitWindow</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1627"/>
+        <location filename="../MKVExtractorQt5.py" line="1604"/>
         <source>Waiting for rework before re-encapsulation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1628"/>
+        <location filename="../MKVExtractorQt5.py" line="1605"/>
         <source>The subtitle files are normally open.
 You can make any changes you want to them.
 When finished, click on Continue.
@@ -1688,12 +1688,12 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1629"/>
+        <location filename="../MKVExtractorQt5.py" line="1606"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1630"/>
+        <location filename="../MKVExtractorQt5.py" line="1607"/>
         <source>Stop</source>
         <translation type="unfinished">Zastavit</translation>
     </message>
@@ -1701,7 +1701,7 @@ To cancel the work and delete the created files, click on Stop.</source>
 <context>
     <name>WhatsUp</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1585"/>
+        <location filename="../MKVExtractorQt5.py" line="1562"/>
         <source>MKV Extractor Qt5&apos;s changelog</source>
         <translation>Seznam změn v MKV Extractor Qt5</translation>
     </message>
@@ -1709,22 +1709,22 @@ To cancel the work and delete the created files, click on Stop.</source>
 <context>
     <name>Work</name>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1794"/>
+        <location filename="../MKVExtractorQt5.py" line="1771"/>
         <source> All commands were canceled </source>
         <translation> Všechny příkazy byly zrušeny </translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1795"/>
+        <location filename="../MKVExtractorQt5.py" line="1772"/>
         <source>Command execution: &lt;span style=&quot; color:#0000c0;&quot;&gt;{}&lt;/span&gt;</source>
         <translation>Provedení příkazu: &lt;span style=&quot; color:#0000c0;&quot;&gt;{}&lt;/span&gt;</translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1796"/>
+        <location filename="../MKVExtractorQt5.py" line="1773"/>
         <source> The last command returned an error </source>
         <translation> Poslední příkaz vrátil chybu </translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1797"/>
+        <location filename="../MKVExtractorQt5.py" line="1774"/>
         <source> {} execution is finished </source>
         <translation> Provedení {} je dokončeno </translation>
     </message>
@@ -1734,33 +1734,33 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete"> Stopy souboru MKV </translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1799"/>
+        <location filename="../MKVExtractorQt5.py" line="1776"/>
         <source> {} execution in progress </source>
         <translation> Probíhá provedení {} </translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1798"/>
+        <location filename="../MKVExtractorQt5.py" line="1775"/>
         <source> Load of MKV File Tracks </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1790"/>
+        <location filename="../MKVExtractorQt5.py" line="1767"/>
         <source>Files missing !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1791"/>
+        <location filename="../MKVExtractorQt5.py" line="1768"/>
         <source>The following files are missing for the proper execution of the command:
  - {}</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1792"/>
+        <location filename="../MKVExtractorQt5.py" line="1769"/>
         <source>{} problem !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../MKVExtractorQt5.py" line="1793"/>
+        <location filename="../MKVExtractorQt5.py" line="1770"/>
         <source>&lt;b&gt;{}&lt;/b&gt; is the base of this software,&lt;br&gt;this command is &lt;b&gt;mandatory&lt;/b&gt; !&lt;br&gt;&lt;br&gt;To configure the command,&lt;br&gt;go to &lt;b&gt;Options &gt; Softwares locations&lt;/b&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1901,7 +1901,7 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">OK</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1397"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1398"/>
         <source>Launch extract/convert/mux tracks.</source>
         <translation>Spustit vytahování/převod/balení stop.</translation>
     </message>
@@ -1926,12 +1926,12 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation>Pozastavit</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1373"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1374"/>
         <source>Quit the program and save the options.</source>
         <translation>Ukončit program a uložit volby.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1370"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1371"/>
         <source>Quit</source>
         <translation>Ukončit</translation>
     </message>
@@ -1951,27 +1951,27 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation>Nápo&amp;věda</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1282"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1283"/>
         <source>&amp;Information feedback:</source>
         <translation>&amp;Zpětná vazba:</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1328"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1329"/>
         <source>&amp;Open an MKV file</source>
         <translation>&amp;Otevřít soubor MKV</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1331"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1332"/>
         <source>Open an MKV file</source>
         <translation>Otevřít soubor MKV</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1337"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1338"/>
         <source>Chosing an MKV file is required.</source>
         <translation>Výběr souboru MKV je povinný.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1349"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1350"/>
         <source>Output &amp;folder</source>
         <translation>Výstupní &amp;složka</translation>
     </message>
@@ -1981,62 +1981,62 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">Výstupní složka</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1355"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1356"/>
         <source>Chosing an output folder is mandatory if the option to use the same folder as the MKV file is not used.</source>
         <translation>Výběr výstupní složky je povinný, pokud není používána volba používající tutéž složku jako soubor MKV.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1367"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1368"/>
         <source>&amp;Quit</source>
         <translation>&amp;Ukončit</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1391"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1392"/>
         <source>&amp;Start job queue</source>
         <translation type="unfinished">O p&amp;rogramu Qtesseract5</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1412"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1413"/>
         <source>&amp;Check MKV file</source>
         <translation>&amp;Ověřit soubor MKV</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1418"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1419"/>
         <source>Verify Matroska files for specification conformance with MKValidator.</source>
         <translation>Ověřit soubory Matroska kvůli souladu specifikace s MKValidator.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1433"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1434"/>
         <source>&amp;Optimize MKV file</source>
         <translation>&amp;Vyladit soubor MKV</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1439"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1440"/>
         <source>Clean/Optimize Matroska files with MKClean.</source>
         <translation>Vyčistit/Vyladit soubor Matroska, který je již zabalen pomocí MKClean.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1454"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1455"/>
         <source>&amp;About MKV Extractor Qt</source>
         <translation>&amp;O programu</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1475"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1476"/>
         <source>&amp;View MKV information</source>
         <translation type="unfinished">Nastavit znovu okno s informacemi.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1481"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1482"/>
         <source>Display information about the MKV file with mkvinfo.</source>
         <translation>Zobrazit informace o souboru MKV a MKVInfo.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1496"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1497"/>
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1499"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1500"/>
         <source>Display information about Qt.</source>
         <translation>Zobrazit informace o Qt.</translation>
     </message>
@@ -2051,37 +2051,37 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">Změnit výstupní složku automaticky na tutéž složku, jakou používá soubor MKV.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1514"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1515"/>
         <source>Edit c&amp;onfiguration</source>
         <translation>Úprava &amp;nastavení</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1601"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1602"/>
         <source>Delete config file and don&apos;t save the new values for this time.</source>
         <translation>Smazat soubor s nastavením a neukládat pro tentokrát nové hodnoty.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1529"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1530"/>
         <source>&amp;Edit MKV file</source>
         <translation type="unfinished">Čís&amp;t soubor MKV</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1535"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1536"/>
         <source>Open the MKV file with mkvmerge GUI for more modifications.</source>
         <translation>Otevřít soubor MKV s rozhraním MKV Merge pro více úprav.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1559"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1560"/>
         <source>Open the MKV file with the default application.</source>
         <translation>Otevřít soubor MKV s výchozím programem.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1571"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1572"/>
         <source>&amp;Need help</source>
         <translation>&amp;Potřeba pomoci</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1574"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1575"/>
         <source>Help me! I&apos;m lost :(</source>
         <translation>Pomoc. Jsem ztracen</translation>
     </message>
@@ -2096,12 +2096,12 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">Smazat seznam &amp;nedávných souborů/adres</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1619"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1620"/>
         <source>Show or hide the informations feedback box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1616"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1617"/>
         <source>View &amp;information feedback box</source>
         <translation>Zobrazit okno s &amp;informacemi</translation>
     </message>
@@ -2111,17 +2111,17 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">Ukázat nebo skrýt okno s informační zpětnou vazbou.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1631"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1632"/>
         <source>&amp;Anchor information feedback box</source>
         <translation>&amp;Ukotvit okno s informacemi</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1652"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1653"/>
         <source>Keep in memory the aspect and the position of the window for the next opening.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1649"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1650"/>
         <source>&amp;Keep the window aspect and its position</source>
         <translation type="unfinished">Zobrazit informace o Qtesseract5.</translation>
     </message>
@@ -2131,22 +2131,22 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">Uchovat v paměti velikost okna a jeho polohu pro jeho příští otevření.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1664"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1665"/>
         <source>&amp;Debug mode</source>
         <translation>&amp;Ladicí režim</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1667"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1668"/>
         <source>Enable this option for view more informations in feedback box.</source>
         <translation>Povolit tuto volbu pro zobrazení více informací v okně s informační zpětnou vazbou.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1682"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1683"/>
         <source>&amp;Use a system tray icon</source>
         <translation>P&amp;oužít ikonu v oznamovací oblasti panelu</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1688"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1689"/>
         <source>Display a system tray icon of the software.</source>
         <translation>Zobrazit ikonu programu v oznamovací oblasti panelu.</translation>
     </message>
@@ -2156,22 +2156,22 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">&amp;Pomocník</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1697"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1698"/>
         <source>&amp;MKVToolNix last version</source>
         <translation>Poslední verze &amp;MKVToolNix</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1703"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1704"/>
         <source>Open the download page of MKVToolNix.</source>
         <translation>Otevřít stahovací stránku MKVToolNix.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1715"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1716"/>
         <source>&amp;They talk about</source>
         <translation>&amp;Mluví o</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1718"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1719"/>
         <source>They talk about MKV Extractor Gui on the web.</source>
         <translation type="unfinished">Mluví o MKV Extractor Gui.</translation>
     </message>
@@ -2186,7 +2186,7 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="obsolete">Použít ffmpeg</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1457"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1458"/>
         <source>Display information about MKV Extractor Qt5.</source>
         <translation>Zobrazit informace o MKV Extractor Qt5.</translation>
     </message>
@@ -2196,12 +2196,12 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation>Klepněte pro pozastavení mezi dvěmi úlohami nebo během převodu ze SUB na SRT.</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1730"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1731"/>
         <source>&amp;What&apos;s up ?!</source>
         <translation>&amp;Co se děje?</translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1736"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1737"/>
         <source>View the changelog file of the software.</source>
         <translation>Zobrazit soubor se seznamem změn učiněných v programu.</translation>
     </message>
@@ -2226,42 +2226,42 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1553"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1554"/>
         <source>&amp;Play MKV file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1556"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1557"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1394"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1395"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) Open a mkv file.&lt;br/&gt;2) Tick tracks before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1415"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1416"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkvalidator needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1436"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1437"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkclean needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1532"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1533"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;br/&gt;1) mkvtoolnix-gui needs to be install.&lt;br/&gt;2) Open a mkv file before execute command.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1733"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1734"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Why I can&apos;t use it?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;1) MKV Extractor Qt needs to be install by a debian package&lt;span style=&quot; font-style:italic;&quot;&gt; (on my ppa)&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1751"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1752"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If the not available options are hide, it&apos;s impossible to see &lt;a name=&quot;result_box&quot;/&gt;all the possibilities offered by the software.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2276,42 +2276,42 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1334"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1335"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Opens a file selector dialog to choose a MKV file or supported file who will be converted in MKV before load it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1352"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1353"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Opens a folder selector dialog to choose the directory who will receive the new files and if needed the temporary files.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1598"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1599"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I don&apos;t want to &lt;a name=&quot;result_box&quot;/&gt;leave unnecessary traces :)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1517"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1518"/>
         <source>View and edit the configuration values.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1634"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1635"/>
         <source>Anchor or detach information feedback box.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1685"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1686"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;With a system tray icon, the software can be hided of the taskbar.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1748"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1749"/>
         <source>&amp;Hide options not available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1763"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1764"/>
         <source>Softwares locations</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2341,17 +2341,17 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1766"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1767"/>
         <source>Edit the executables locations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1700"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1701"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MKVToolNix&lt;/span&gt; is a awesome software who serve of base at &lt;span style=&quot; font-weight:600;&quot;&gt;MKV Extractor Qt&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Try to update it regularly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1754"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1755"/>
         <source>This option hides all options (like ffmpeg, mkvinfo...) who are not available.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2361,17 +2361,17 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1778"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1779"/>
         <source>Minimize window when closed with X</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1781"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1782"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Minimize the window when it closed with the X and when the systray is enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1784"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1785"/>
         <source>Minimize the window when it closed with the X and when the systray is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2381,22 +2381,22 @@ To cancel the work and delete the created files, click on Stop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1592"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1593"/>
         <source>Delete &amp;recent Qt files/URLs list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1799"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1800"/>
         <source>Delete temporary files after work</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1802"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1803"/>
         <source>The temporary files are the extracted tracks before merge or before their convert.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui_MKVExtractorQt5.ui" line="1595"/>
+        <location filename="../ui_MKVExtractorQt5.ui" line="1596"/>
         <source>Delete recent Qt files/URLs list</source>
         <translation type="unfinished"></translation>
     </message>

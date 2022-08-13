@@ -194,23 +194,10 @@ class QTextEditCustom(QTextEdit):
         ### Chargement du fichier qm de traduction (anglais utile pour les textes singulier/pluriel)
         appTranslator = QTranslator() # Création d'un QTranslator
 
-        ## Pour la trad française
-        if Configs.value("Language") == "fr_FR":
+        ## Pour les traductions disponibles
+        if Configs.value("Language") in ("fr_FR", "cs_CZ", "es_ES", "tr_TR"):
             # Chargement de la traduction
-            if appTranslator.load("Languages/MKVExtractorQt5_fr_FR", AppFolder):
-                app.installTranslator(appTranslator)
-
-        ## Pour la version tchèque
-        elif Configs.value("Language") == "cs_CZ":
-            # Chargement de la traduction
-            if appTranslator.load("Languages/MKVExtractorQt5_cs_CZ", AppFolder):
-                app.installTranslator(appTranslator)
-
-
-        ## Pour la version tchèque
-        elif Configs.value("Language") == "es_ES":
-            # Chargement de la traduction
-            if appTranslator.load("Languages/MKVExtractorQt5_es_ES", AppFolder):
+            if appTranslator.load("Languages/MKVExtractorQt5_{}".format(Configs.value("Language")), AppFolder):
                 app.installTranslator(appTranslator)
 
         ### Création d'un menu standard
@@ -556,20 +543,18 @@ class MKVExtractorQt5(QMainWindow):
             }
 
         ### Gestion la traduction, le widget n'est pas encore connecté
-        # Sélection de la langue français
-        if "fr_" in Configs.value("Language"):
-            self.ui.lang_fr.setChecked(True)
-            self.OptionLanguage("fr_FR")
+        Langue = Configs.value("Language")[0:2].lower()
+        if Langue in ("fr", "cs", "es", "tr"):
+            Infos = {
+                "fr": [self.ui.lang_fr, "fr_FR"],
+                "cs": [self.ui.lang_cs, "cs_CZ"],
+                "es": [self.ui.lang_es, "es_ES"],
+                "tr": [self.ui.lang_tr, "tr_TR"]
+                }
 
-        # Sélection de la langue tchèque
-        elif "cs_" in Configs.value("Language"):
-            self.ui.lang_cs.setChecked(True)
-            self.OptionLanguage("cs_CZ")
-
-        # Sélection de la langue tchèque
-        elif "es_" in Configs.value("Language"):
-            self.ui.lang_es.setChecked(True)
-            self.OptionLanguage("es_ES")
+            # Sélection de la langue
+            Infos[Langue][0].setChecked(True)
+            self.OptionLanguage(Infos[Langue][1])
 
         # Force le chargement de traduction si c'est la langue anglaise (par défaut)
         else:
@@ -732,6 +717,7 @@ class MKVExtractorQt5(QMainWindow):
         self.ui.lang_fr.triggered.connect(partial(self.OptionLanguage, "fr_FR"))
         self.ui.lang_cs.triggered.connect(partial(self.OptionLanguage, "cs_CZ"))
         self.ui.lang_es.triggered.connect(partial(self.OptionLanguage, "es_ES"))
+        self.ui.lang_tr.triggered.connect(partial(self.OptionLanguage, "tr_TR"))
 
         ### Connexions du menu Help (au clic ou au coche)
         self.ui.option_debug.toggled.connect(partial(self.OptionsValue, "DebugMode"))
@@ -1531,45 +1517,24 @@ class MKVExtractorQt5(QMainWindow):
         ### Chargement du fichier QM de traduction (anglais utile pour les textes singulier/pluriel)
         appTranslator = QTranslator() # Création d'un QTranslator
 
-        ## Pour la trad française
-        if Configs.value("Language") == "fr_FR":
-            find = appTranslator.load("Languages/MKVExtractorQt5_fr_FR", AppFolder)
+        ### Dans le cas d'une langue autre que anglais et qui existe
+        if Configs.value("Language") in ("fr_FR", "cs_CZ", "es_ES", "tr_TR"):
+            find = appTranslator.load("Languages/MKVExtractorQt5_{}".format(Configs.value("Language")), AppFolder)
 
             # Si le fichier n'a pas été trouvé, affiche une erreur et utilise la version anglaise
             if not find:
-                QMessageBox(QMessageBox.Critical, "Erreur de traduction", "Aucun fichier de traduction <b>française</b> trouvé.<br/>Utilisation de la langue <b>anglaise</b>.", QMessageBox.Close, self, Qt.WindowSystemMenuHint).exec()
+                Texts = {
+                    "fr_FR": ["Erreur de traduction", "Aucun fichier de traduction <b>française</b> trouvé.<br/>Utilisation de la langue <b>anglaise</b>."],
+                    "cs_CZ": ["Chyba překladu", "No translation file <b>Czech</b> found. Use <b>English</b> language. Soubor s překladem do <b>češtiny</b> nenalezen. Použít <b>anglický</b> jazyk."],
+                    "es_ES": ["Error de traducción", "No se han encontrado archivos de traducción al <b>español</b>.<br>El idioma <b>inglés</b> utilizado."],
+                    "tr_TR": ["Çeviri hatası", "<b>Türkçe</b> çeviri dosyası bulunamadı.<br><b>İngilizce dilini</b> kullanma."]
+                    }
+
+                QMessageBox(QMessageBox.Critical, Texts[Configs.value("Language")][0], Texts[Configs.value("Language")][1], QMessageBox.Close, self, Qt.WindowSystemMenuHint).exec()
                 self.ui.lang_en.setChecked(True)
                 Configs.setValue("Language", "en_US")
 
-            # Chargement de la traduction
-            else:
-                app.installTranslator(appTranslator)
-
-        ## Pour la version tchèque
-        elif Configs.value("Language") == "cs_CZ":
-            find = appTranslator.load("Languages/MKVExtractorQt5_cs_CZ", AppFolder)
-
-            # Si le fichier n'a pas été trouvé, affiche une erreur et utilise la version anglaise
-            if not find:
-                QMessageBox(QMessageBox.Critical, "Chyba překladu", "No translation file <b>Czech</b> found. Use <b>English</b> language. Soubor s překladem do <b>češtiny</b> nenalezen. Použít <b>anglický</b> jazyk.", QMessageBox.Close, self, Qt.WindowSystemMenuHint).exec()
-                self.ui.lang_en.setChecked(True)
-                Configs.setValue("Language", "en_US")
-
-            # Chargement de la traduction
-            else:
-                app.installTranslator(appTranslator)
-
-        ## Pour la version espagnole
-        elif Configs.value("Language") == "es_ES":
-            find = appTranslator.load("Languages/MKVExtractorQt5_es_ES", AppFolder)
-
-            # Si le fichier n'a pas été trouvé, affiche une erreur et utilise la version anglaise
-            if not find:
-                QMessageBox(QMessageBox.Critical, "Error de traducción", "No se han encontrado archivos de traducción al <b>español</b>.<br>El idioma <b>inglés</b> utilizado.", QMessageBox.Close, self, Qt.WindowSystemMenuHint).exec()
-                self.ui.lang_en.setChecked(True)
-                Configs.setValue("Language", "en_US")
-
-            # Chargement de la traduction
+            # Sinon, chargement de la traduction
             else:
                 app.installTranslator(appTranslator)
 

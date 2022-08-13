@@ -1240,6 +1240,7 @@
     <addaction name="lang_fr"/>
     <addaction name="lang_cs"/>
     <addaction name="lang_es"/>
+    <addaction name="lang_tr"/>
    </widget>
    <addaction name="menuFichier"/>
    <addaction name="menuActions"/>
@@ -1815,7 +1816,13 @@
       <normaloff>:/img/EN.png</normaloff>:/img/EN.png</iconset>
     </property>
     <property name="text">
-     <string notr="true">&amp;English version</string>
+     <string notr="true">English version</string>
+    </property>
+    <property name="iconText">
+     <string notr="true">English version</string>
+    </property>
+    <property name="toolTip">
+     <string notr="true">English version</string>
     </property>
     <property name="statusTip">
      <string notr="true">Change the display language to English.</string>
@@ -1830,7 +1837,13 @@
       <normaloff>:/img/FR.png</normaloff>:/img/FR.png</iconset>
     </property>
     <property name="text">
-     <string notr="true">&amp;Version française</string>
+     <string notr="true">Version française par Hizo</string>
+    </property>
+    <property name="iconText">
+     <string notr="true">Version française par Hizo</string>
+    </property>
+    <property name="toolTip">
+     <string notr="true">Version française par Hizo</string>
     </property>
     <property name="statusTip">
      <string notr="true">Traduit le logiciel en langue Française.</string>
@@ -1845,7 +1858,13 @@
       <normaloff>:/img/CS.png</normaloff>:/img/CS.png</iconset>
     </property>
     <property name="text">
-     <string notr="true">Če&amp;ská verze</string>
+     <string notr="true">Česká verze</string>
+    </property>
+    <property name="iconText">
+     <string notr="true">Česká verze</string>
+    </property>
+    <property name="toolTip">
+     <string notr="true">Česká verze</string>
     </property>
     <property name="statusTip">
      <string notr="true">Změnit jazyk rozhraní na češtinu.</string>
@@ -1860,10 +1879,37 @@
       <normaloff>:/img/ES.png</normaloff>:/img/ES.png</iconset>
     </property>
     <property name="text">
-     <string notr="true">Versión en español</string>
+     <string notr="true">Versión en español por Casper225</string>
+    </property>
+    <property name="iconText">
+     <string notr="true">Versión en español por Casper225</string>
+    </property>
+    <property name="toolTip">
+     <string notr="true">Versión en español por Casper225</string>
     </property>
     <property name="statusTip">
      <string notr="true">Traduce el software al español.</string>
+    </property>
+   </action>
+   <action name="lang_tr">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="icon">
+     <iconset resource="MKVRessources.qrc">
+      <normaloff>:/img/TR.png</normaloff>:/img/TR.png</iconset>
+    </property>
+    <property name="text">
+     <string notr="true">GkhnGRBZ tarafından Türkçe versiyonu</string>
+    </property>
+    <property name="iconText">
+     <string notr="true">GkhnGRBZ tarafından Türkçe versiyonu</string>
+    </property>
+    <property name="toolTip">
+     <string notr="true">GkhnGRBZ tarafından Türkçe versiyonu</string>
+    </property>
+    <property name="statusTip">
+     <string notr="true">Yazılımı Türkçe'ye çevirir.</string>
     </property>
    </action>
   </actiongroup>

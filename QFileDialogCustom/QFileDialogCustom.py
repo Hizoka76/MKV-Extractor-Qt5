@@ -45,7 +45,7 @@ class QFileDialogCustom(QFileDialog):
 
         # Traductions disponibles
         if Language in ("fr_FR", "cs_CZ", "es_ES", "tr_TR"):
-            find = appTranslator.load("QFileDialogCustom{}".format(Configs.value("Language")), AppFolder)
+            find = appTranslator.load("QFileDialogCustom{}".format(Language), AppFolder)
 
             # Chargement de la traduction si elle est dispo
             if find:

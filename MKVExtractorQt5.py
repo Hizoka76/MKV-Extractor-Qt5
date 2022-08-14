@@ -3462,16 +3462,18 @@ class MKVExtractorQt5(QMainWindow):
             # Finalisation de la commande de conversion audio
             if TempValues.value("FFMpeg"):
                 ffconv = Configs.value("Location/FFMpeg")
+                ffconvName = "FFMpeg"
 
             else:
                 ffconv = Configs.value("Location/AvConv")
+                ffconvName = "AvConv"
 
             dts_ffmpeg.insert(0, '-y')
             dts_ffmpeg.insert(0, Configs.value("InputFile"))
             dts_ffmpeg.insert(0, '-i')
 
             # Ajout de la commande de conversion audio à la liste des commandes
-            CommandList.append([ffconv, ffconv, dts_ffmpeg, [Configs.value("InputFile")]])
+            CommandList.append([ffconvName, ffconv, dts_ffmpeg, [Configs.value("InputFile")]])
 
 
         ### Ajout des commandes de conversion des vobsub en srt
@@ -3703,12 +3705,18 @@ class MKVExtractorQt5(QMainWindow):
 
         ### Converti les data en textes et les traite
         for line in bytes(data).decode('utf-8').splitlines():
+            #TempValues
+            #TempValues.value("Command")[0]
+            print("TempValues : ", TempValues.value("Command"))
+
             progression = 0
             debugLine = ""
 
             ## Passe la boucle si le retour est vide
             if line == "":
                 continue
+
+
 
             ## Dans le cas d'un encapsulation
             elif TempValues.value("Command")[0] == "MKVMerge":
@@ -3758,7 +3766,7 @@ class MKVExtractorQt5(QMainWindow):
                     debugLine = line
 
             ## FFMpeg ne renvoie pas de pourcentage mais la durée de vidéo encodée en autre
-            elif TempValues.value("Command")[0] in ["ffmpeg", "avconv"]:
+            elif TempValues.value("Command")[0].lower() in ["ffmpeg", "avconv"]:
                 if "time=" in line and TempValues.contains("DurationFile"):
                     # Pour les versions renvoyant : 00:00:00
                     try:
@@ -4220,7 +4228,7 @@ class MKVExtractorQt5(QMainWindow):
 if __name__ == '__main__':
     ### Informations sur l'application'
     app = QApplication(sys.argv)
-    app.setApplicationVersion("22.08.14a")
+    app.setApplicationVersion("22.08.14b")
     app.setApplicationName("MKV Extractor Qt5")
 
     ### Gestion de l'emplacement du logiciel

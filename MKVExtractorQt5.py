@@ -3705,10 +3705,6 @@ class MKVExtractorQt5(QMainWindow):
 
         ### Converti les data en textes et les traite
         for line in bytes(data).decode('utf-8').splitlines():
-            #TempValues
-            #TempValues.value("Command")[0]
-            print("TempValues : ", TempValues.value("Command"))
-
             progression = 0
             debugLine = ""
 
@@ -3716,21 +3712,29 @@ class MKVExtractorQt5(QMainWindow):
             if line == "":
                 continue
 
-
-
             ## Dans le cas d'un encapsulation
             elif TempValues.value("Command")[0] == "MKVMerge":
                 # Récupère le nombre de retour en cas de présence de pourcentage
                 if line[-1] == "%":
-                    progression = int(line.split(": ")[1].strip()[0:-1])
                     debugLine = line
+
+                    try:
+                        progression = int(line.split(": ")[1].strip()[0:-1])
+
+                    except:
+                        progression = "Fake text"
 
             ## Dans le cas d'une conversion
             elif TempValues.value("Command")[0] == "FileToMKV":
                 # Récupère le nombre de retour en cas de présence de pourcentage
                 if line[-1] == "%":
-                    progression = int(line.split(": ")[1].strip()[0:-1])
                     debugLine = line
+
+                    try:
+                        progression = int(line.split(": ")[1].strip()[0:-1])
+
+                    except:
+                        progression = "Fake text"
 
             elif TempValues.value("Command")[0] == "MKVExtract Tags":
                 TagsFile = QFile(TempValues.value("TagsFile"))
@@ -3752,8 +3756,13 @@ class MKVExtractorQt5(QMainWindow):
             elif "MKVExtract" in TempValues.value("Command")[0]:
                 # Récupère le nombre de retour en cas de présence de pourcentage
                 if line[-1] == "%":
-                    progression = int(line.split(": ")[1].strip()[0:-1])
                     debugLine = line
+
+                    try:
+                        progression = int(line.split(": ")[1].strip()[0:-1])
+
+                    except:
+                        progression = "Fake text"
 
             ## MKValidator ne renvoie pas de pourcentage mais des infos ou des points, on vire les . qui indiquent un travail en cours
             elif TempValues.value("Command")[0] == "MKValidator":
@@ -3762,12 +3771,19 @@ class MKVExtractorQt5(QMainWindow):
             ## MKClean renvoie une progression et des infos, on ne traite que les pourcentages
             elif TempValues.value("Command")[0] == "MKClean":
                 if line[-1] == "%":
-                    progression = int(line.split(": ")[1].strip()[0:-1])
                     debugLine = line
 
+                    try:
+                        progression = int(line.split(": ")[1].strip()[0:-1])
+
+                    except:
+                        progression = "Fake text"
+
             ## FFMpeg ne renvoie pas de pourcentage mais la durée de vidéo encodée en autre
-            elif TempValues.value("Command")[0].lower() in ["ffmpeg", "avconv"]:
+            elif TempValues.value("Command")[0] in ["FFMpeg", "AvConv"]:
                 if "time=" in line and TempValues.contains("DurationFile"):
+                    debugLine = line
+
                     # Pour les versions renvoyant : 00:00:00
                     try:
                         value = line.split("=")[2].strip().split(".")[0].split(":")
@@ -3779,32 +3795,37 @@ class MKVExtractorQt5(QMainWindow):
                         value2 = line.split("=")[2].strip().split(".")[0]
 
                     # Pourcentage maison se basant sur la durée du fichier
-                    progression = int((value2 * 100) / TempValues.value("DurationFile"))
-                    debugLine = line
+                    try:
+                        progression = int((value2 * 100) / TempValues.value("DurationFile"))
+
+                    except:
+                        progression = "Fake text"
 
             ## Qtesseract5
             elif TempValues.value("Command")[0] == "Qtesseract5":
+                debugLine = line
+
                 if "Temporary folder:" in line:
                     TempValues.setValue("Qtesseract5Folder", line.split(": ")[1])
 
                 try:
                     progression = int((int(line.split("/")[0]) / int(line.split("/")[1])) * 100)
-                    debugLine = line
 
                 except:
-                    pass
+                    progression = "Fake text"
 
             ## BDSup2Sub
             elif TempValues.value("Command")[0] == "BDSup2Sub":
                 # Progression
                 if "Decoding frame" in line:
+                    debugLine = line
+
                     try:
                         values = line.split(" ")[2].split("/")
                         progression = int((int(values[0]) / int(values[1])) * 100)
-                        debugLine = line
 
                     except:
-                        pass
+                        progression = "Fake text"
 
                 # Cache ces infos
                 elif "#>" in line:
@@ -4228,7 +4249,7 @@ class MKVExtractorQt5(QMainWindow):
 if __name__ == '__main__':
     ### Informations sur l'application'
     app = QApplication(sys.argv)
-    app.setApplicationVersion("22.08.14b")
+    app.setApplicationVersion("22.08.16a")
     app.setApplicationName("MKV Extractor Qt5")
 
     ### Gestion de l'emplacement du logiciel

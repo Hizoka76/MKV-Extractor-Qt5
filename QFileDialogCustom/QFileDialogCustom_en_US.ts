@@ -3,12 +3,12 @@
 <context>
     <name>QFileDialogCustom</name>
     <message>
-        <location filename="QFileDialogCustom.py" line="56"/>
+        <location filename="QFileDialogCustom.py" line="60"/>
         <source>Already existing file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="QFileDialogCustom.py" line="57"/>
+        <location filename="QFileDialogCustom.py" line="61"/>
         <source>The &lt;b&gt;{}&lt;/b&gt; file is already existing, overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>

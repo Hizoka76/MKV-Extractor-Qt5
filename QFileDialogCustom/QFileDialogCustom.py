@@ -5,6 +5,10 @@
 Ajout d'une case à cocher.
 L'utilisation de " ne pose pas de souci."""
 
+# 220822 :
+    # Prise en compte des adresses absolues lorsque tapées dans la barre du nom du fichier
+    # Prise en compte des dossiers pour s'y déplacer lorsque tapés dans la barre du nom du fichier
+
 # 220707 :
     # Refonte complète
 
@@ -75,8 +79,15 @@ class QFileDialogCustom(QFileDialog):
             else:
                 self.FileSelected = self.directory().absolutePath()
 
+        # Si une adresse est présente
         else:
-            self.FileSelected = "{}/{}".format(self.directory().absolutePath(), lineEdit.text())
+            # Si c'est une adresse absolue
+            if lineEdit.text()[0] == "/":
+                self.FileSelected = "{}".format(lineEdit.text())
+
+            # Si l'adresse est relative
+            else:
+                self.FileSelected = "{}/{}".format(self.directory().absolutePath(), lineEdit.text())
 
         # Fonction d'écrasement
         if self.Action == "Save" \
@@ -97,6 +108,11 @@ class QFileDialogCustom(QFileDialog):
 
         # Bloque la validation si le fichier à ouvrir n'existe pas
         if self.Type == "File" and self.Action == "Open" and not QFileInfo(self.FileSelected).isFile():
+            # Si c'est un dossier, on s'y déplace
+            if QFileInfo(self.FileSelected).isDir():
+                self.setDirectory(self.FileSelected)
+                lineEdit.setText("")
+
             self.FileSelected = ""
             AcceptValide = False
 

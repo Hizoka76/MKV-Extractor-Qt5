@@ -941,32 +941,32 @@ Do you want convert this file in mkv ?</source>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1780"/>
         <source>Permission denied !</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Permiso denegado!</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1781"/>
         <source>Permission denied for the creation of the temporary folder !&lt;br&gt;You haven&apos;t the permission to create: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;&lt;br&gt;Use of default value: &lt;b&gt;{}&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>¡ Permiso denegado para la creación de la carpeta temporal !&lt;br&gt;No tiene permiso para crear: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;&lt;br&gt;Usar valor por defecto: &lt;b&gt;{}&lt;/b &gt;</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1782"/>
         <source>Folder no exists !</source>
-        <translation type="unfinished"></translation>
+        <translation>¡La carpeta no existe!</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1783"/>
         <source>The folder to use as temp folder not exists !&lt;br&gt;The invalid folder: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;&lt;br&gt;Use of default value: &lt;b&gt;{}&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>¡La carpeta para usar como carpeta temporal no existe!&lt;br&gt;Carpeta no válida: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;&lt;br&gt;Usar valor por defecto: &lt;b&gt;{}&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1784"/>
         <source>Error while creating the temporary folder !</source>
-        <translation type="unfinished"></translation>
+        <translation>¡ Error al crear la carpeta temporal !</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1785"/>
         <source>An error occurred while creating the temporary folder: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;&lt;br&gt;Use of default value: &lt;b&gt;{}&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocurrió un error al crear la carpeta temporal: &lt;b&gt;{}&lt;/b&gt;&lt;br&gt;&lt;br&gt;Usar valor por defecto: &lt;b&gt;{}&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -1217,7 +1217,7 @@ Para cancelar el trabajo y eliminar los archivos creados, haga clic en Parar.</t
     <message>
         <location filename="../MKVExtractorQt5.py" line="1794"/>
         <source> The last command returned an warning </source>
-        <translation type="unfinished"></translation>
+        <translation> El ultimo comando devolvió una advertencia </translation>
     </message>
 </context>
 <context>

@@ -100,7 +100,7 @@
     <message>
         <location filename="../MKVExtractorQt5.py" line="1709"/>
         <source>Launch extract/convert/mux tracks.</source>
-        <translation>Ayıklamayı başlat/dönüştür/parçaları çokla.</translation>
+        <translation>Ayıklamayı başlat/dönüştür/parçaları birleştir.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1711"/>
@@ -110,7 +110,7 @@
     <message>
         <location filename="../MKVExtractorQt5.py" line="1712"/>
         <source>Press button to pause the jobs.</source>
-        <translation>İşleri duraklatmak için düğmesine basın.</translation>
+        <translation>İşleri duraklatmak için butona tıklayın.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1713"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../MKVExtractorQt5.py" line="1715"/>
         <source>Press button to resume the jobs.</source>
-        <translation>İşleri sürdürmek için düğmesine basın.</translation>
+        <translation>İşleri sürdürmek için butona tıklayın.</translation>
     </message>
 </context>
 <context>
@@ -466,12 +466,12 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1647"/>
         <source>Show or hide the information feedback box.</source>
-        <translation>İş akışı geri bildirim kutusunu gösterin veya gizleyin.</translation>
+        <translation>Geri bildirim kutusunu gösterin veya gizleyin.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1648"/>
         <source>Anchor or loose information feedback box.</source>
-        <translation>Sabit veya kararsız iş akışı geri bildirim kutusu.</translation>
+        <translation>Geri bildirim kutusunu sabitleyin veya çıkarın.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1649"/>
@@ -541,7 +541,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1662"/>
         <source>Automatically rename the output file name in MEG_FileName.</source>
-        <translation>MEG_Dosyaadı içindeki çıktı dosyası adını otomatik olarak yeniden adlandırın.</translation>
+        <translation>MEG_DosyaAdı içindeki çıktı dosyasının adını otomatik olarak yeniden adlandırın.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1663"/>
@@ -551,7 +551,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1664"/>
         <source>Opening subtitles before encapsulation.</source>
-        <translation>Kapsüllemeden önce altyazıları açın.</translation>
+        <translation>Birleştirmeden önce altyazıları açın.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1665"/>
@@ -639,12 +639,12 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1682"/>
         <source>Opening subtitles before encapsulation</source>
-        <translation>Kapsüllemeden önce altyazıları açın</translation>
+        <translation>Birleştirmeden önce altyazıları açın</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1683"/>
         <source>Auto opening of subtitle srt files for correction. The software will be paused.</source>
-        <translation>Düzeltme için altyazı srt dosyalarının otomatik açılması. Yazılım duraklatılacaktır.</translation>
+        <translation>Srt uzantılı altyazıların otomatik olarak açılıp düzeltilmesidir. Yazılım duraklatılacaktır.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1684"/>
@@ -742,7 +742,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1729"/>
         <source>Always use the default file rename (MEG_FileName)</source>
-        <translation>Her zaman varsayılan dosya yeniden adını kullanın (MEG_Dosyaadı)</translation>
+        <translation>Her zaman varsayılan dosya adını yeniden adlandırın (MEG_DosyaAdı)</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1730"/>
@@ -770,7 +770,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1721"/>
         <source>Keep in memory the last file opened for open it at the next launch of MKV Extractor Qt (to use for tests)</source>
-        <translation>MKV Extractor Qt&apos;nin bir sonraki açılışında, açılan son dosyayı bellekte tutun (testler etmekte kullanmak için)</translation>
+        <translation>MKV Extractor Qt&apos;nin bir sonraki açılışında, açılan son dosyayı bellekte tutun (test etmekte kullanmak için)</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1722"/>
@@ -867,7 +867,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1733"/>
         <source>subtitles</source>
-        <translation>altyazılar</translation>
+        <translation>altyazı</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1734"/>
@@ -907,7 +907,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1742"/>
         <source>Work with {}.</source>
-        <translation>Birlikte çalış {}.</translation>
+        <translation>{} ile çalış.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1743"/>
@@ -950,7 +950,7 @@ Bu dosyayı mkv&apos;ye dönüştürmek istiyor musunuz?</translation>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1787"/>
         <source>Icon of the tracks, the attachments icons are clickable to view them.</source>
-        <translation>Parçaların ikonu, ek ikonları tıklanarak görüntülenebilir.</translation>
+        <translation>Parçaların ikonu, ikonlara tıklanarak desteklenen parçalar önizlenebilir.</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1788"/>
@@ -983,7 +983,7 @@ If you just need to make this, you should use MKVToolNix-Gui (previously mmg) wh
 
 What software do you want use ?
 </source>
-        <translation>Diğer seçenekleri kullanmadan parçaları ayıklamak ve yeniden kapsüllemek mi istiyorsunuz?
+        <translation>Diğer seçenekleri kullanmadan parçaları ayıklamak ve yeniden birleştirmek mi istiyorsunuz?
 
 Sadece bunu yapmanız gerekiyorsa, bu işe daha uygun olan MKVToolNix-Gui (önceden mmg) kullanmalısınız.
 
@@ -996,7 +996,7 @@ Hangi yazılımı kullanmak istiyorsunuz?
     <message>
         <location filename="../MKVExtractorQt5.py" line="1629"/>
         <source>Waiting for rework before re-encapsulation</source>
-        <translation>Yeniden kapsüllemeden önce yeniden çalışmayı bekliyorum</translation>
+        <translation>Birleştirme başlamadan önce kurtarma bekleniyor</translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1630"/>
@@ -1005,8 +1005,8 @@ You can make any changes you want to them.
 When finished, click on Continue.
 
 To cancel the work and delete the created files, click on Stop.</source>
-        <translation>Altyazı dosyaları normalde açıktır.
-Onlarda istediğiniz değişikliği yapabilirsiniz.
+        <translation>Altyazı dosyaları seçiminiz üzerine açılmıştır.
+Dosyalarda istediğiniz değişikliği yapıp kaydedebilirsiniz.
 Bitirdiğinizde, Devam&apos;a tıklayın.
 
 Çalışmayı iptal etmek ve oluşturulan dosyaları silmek için Durdur&apos;a tıklayın.</translation>
@@ -1077,7 +1077,7 @@ Bitirdiğinizde, Devam&apos;a tıklayın.
     <message>
         <location filename="../MKVExtractorQt5.py" line="1796"/>
         <source> Load of MKV File Tracks </source>
-        <translation> MKV Dosya Parçalarının Yükü </translation>
+        <translation> MKV dosyasından parça yükleme </translation>
     </message>
     <message>
         <location filename="../MKVExtractorQt5.py" line="1801"/>
@@ -1145,7 +1145,7 @@ Bitirdiğinizde, Devam&apos;a tıklayın.
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="328"/>
         <source>Convertion subtitles option. Qtesseract5 and BDSup2Sub/FFMpeg (for SUP files) need to be present.</source>
-        <translation>Altyazıları dönüştürme seçeneği. Qtesseract5 ve BDSup2Sub/FFMpeg (SUP dosyaları için) mevcut olmalıdır.</translation>
+        <translation>Altyazı dönüştürme seçeneği. Qtesseract5 ve BDSup2Sub/FFMpeg (SUP dosyaları için) mevcut olmalıdır.</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="331"/>
@@ -1240,7 +1240,7 @@ Bitirdiğinizde, Devam&apos;a tıklayın.
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1398"/>
         <source>Launch extract/convert/mux tracks.</source>
-        <translation>Ayıklamayı başlat/dönüştür/parçaları çokla.</translation>
+        <translation>Ayıklamayı başlat/dönüştür/parçaları birleştir.</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1039"/>
@@ -1310,7 +1310,7 @@ Bitirdiğinizde, Devam&apos;a tıklayın.
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1283"/>
         <source>&amp;Information feedback:</source>
-        <translation>&amp;Bilgi geri bildirimi:</translation>
+        <translation>&amp;Geri bildirim:</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1329"/>
@@ -1490,22 +1490,22 @@ Bitirdiğinizde, Devam&apos;a tıklayın.
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1617"/>
         <source>View &amp;information feedback box</source>
-        <translation>İş akışı &amp;geri bildirim kutusunu görüntüle</translation>
+        <translation>Geri b&amp;ildirim kutusunu göster</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1620"/>
         <source>Show or hide the informations feedback box.</source>
-        <translation>İş akışı geri bildirim kutusunu gösterin veya gizleyin.</translation>
+        <translation>Geri bildirim kutusunu gösterir/gizler.</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1632"/>
         <source>&amp;Anchor information feedback box</source>
-        <translation>&amp;Sunucu bilgisi geri bildirim kutusu</translation>
+        <translation>&amp;Geri bildirim kutusunu sabitleyin</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1635"/>
         <source>Anchor or detach information feedback box.</source>
-        <translation>İş akışı geri bildirim kutusunu sabitleyin veya ayırın.</translation>
+        <translation>Geri bildirim kutusunu sabitleyin veya sabitlemesini kaldırın.</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1650"/>
@@ -1585,7 +1585,7 @@ Bitirdiğinizde, Devam&apos;a tıklayın.
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1749"/>
         <source>&amp;Hide options not available</source>
-        <translation>&amp;Gizle seçenekleri mevcut değil</translation>
+        <translation>&amp;Kullanılamayan seçenekleri gizle</translation>
     </message>
     <message>
         <location filename="../ui_MKVExtractorQt5.ui" line="1752"/>

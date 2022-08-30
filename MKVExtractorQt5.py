@@ -4323,7 +4323,7 @@ class MKVExtractorQt5(QMainWindow):
 if __name__ == '__main__':
     ### Informations sur l'application'
     app = QApplication(sys.argv)
-    app.setApplicationVersion("22.08.27a")
+    app.setApplicationVersion("22.08.30a")
     app.setApplicationName("MKV Extractor Qt5")
 
     ### Gestion de l'emplacement du logiciel

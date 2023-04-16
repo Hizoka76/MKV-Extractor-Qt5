@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+
 # Déplacer la conversion des fichiers (mp4...) au moment  de l'extraction ?
     # => Non car il manque des infos lors du chargement du fichier non mkv
 
@@ -481,6 +482,10 @@ class MKVExtractorQt5(QMainWindow):
         self.mkv_execute_2.setObjectName("mkv_execute_2")
         self.ui.menuActions.addAction(self.mkv_execute_2)
 
+        ### QProcess (permet de lancer les jobs en fond de taches)
+        self.process = QProcess() # Création du QProcess
+        self.process.setProcessChannelMode(1) # Unification des 2 sorties (normale + erreur) du QProcess
+
         ### Désactive le bouton whatsup s'il n'y a pas de changelog
         if not QFileInfo('/usr/share/doc/mkv-extractor-qt5/changelog.Debian.gz').exists():
             self.ui.whatsup.setEnabled(False)
@@ -585,19 +590,19 @@ class MKVExtractorQt5(QMainWindow):
         for line in self.LittleProcess('mkvmerge', ['--list-languages']):
             ## Exclue la ligne contenant les ---
             if line[0] != "-":
-                # Récupère la 2eme colonne, la langue en 3 lettres
-                line = line.split('|')[1].strip()
+                try:
+                    # Récupère la 2eme colonne, la langue en 3 lettres
+                    line = line.split('|')[1].strip()
 
-                # Vérifie que le résultat est bien de 3 caractères puis ajoute la langue
-                if len(line) == 3:
-                    MKVLanguages.append(line)
+                    # Vérifie que le résultat est bien de 3 caractères puis ajoute la langue
+                    if len(line) == 3:
+                        MKVLanguages.append(line)
+
+                except:
+                    pass
 
         # Range les langues dans l'ordre alphabétique
         MKVLanguages.sort()
-
-        ### QProcess (permet de lancer les jobs en fond de taches)
-        self.process = QProcess() # Création du QProcess
-        self.process.setProcessChannelMode(1) # Unification des 2 sorties (normale + erreur) du QProcess
 
         ### Connexions de la grande partie des widgets (les autres sont ci-dessus ou via le fichier UI)
         self.ConnectActions()
@@ -960,7 +965,25 @@ class MKVExtractorQt5(QMainWindow):
 
                 self.SetInfo(self.Trad["WorkTestTitle"].format(Name.replace("Location/", "")) + " : " + self.Trad["WorkTestText"].format(Name.replace("Location/", "")), "FF0000", True) # Erreur pendant le travail
 
+                # Blocage du chargement de fichier mkv
+                if Name == "Location/MKVMerge":
+                    self.ui.input_file.setEnabled(False)
+
+                # Blocage des boutons d'exécution dans le cas où l'adresse du soft serait modifiée une fois les lignes cochées
+                elif Name == "Location/MKVExtract":
+                    self.ui.mkv_execute.setEnabled(False)
+                    self.mkv_execute_2.setEnabled(False)
+
+                # Si on n'est pas dans la gestion des adresses, on y va
+                # Donc au démarrage on y va, dans le cas d'une modif à la main, on y est déjà
+                if self.ui.stackedMiddle.currentIndex() != 2:
+                    self.ui.stackedMiddle.setCurrentIndex(2)
+
                 self.WorkStop("Error")
+
+            elif Name == "Location/MKVMerge":
+                # Déblocage du chargement de fichier mkv
+                self.ui.input_file.setEnabled(True)
 
             ## Renvoi de la valeur
             return Retour
@@ -3106,8 +3129,10 @@ class MKVExtractorQt5(QMainWindow):
             # Déblocage des options si besoin
             if MKVDicoSelect and Configs.value("OutputFolder"):
                 # Déblocages des boutons
-                Widgets[self.ui.mkv_execute] = True
-                Widgets[self.mkv_execute_2] = True
+                if SoftExec["MKVExtract"]:
+                    Widgets[self.ui.mkv_execute] = True
+                    Widgets[self.mkv_execute_2] = True
+
                 Widgets[self.ui.option_reencapsulate] = True
 
                 # Boucle sur la liste des lignes
@@ -3710,8 +3735,8 @@ class MKVExtractorQt5(QMainWindow):
                 return
 
         ### Vérification de la présence de mkvmerge et mkvextract
-        if not SoftExec["MKVMerge"] or not SoftExec["MKVExtract"]:
-            return
+        # if not SoftExec["MKVMerge"] or not SoftExec["MKVExtract"]:
+        #     return
 
         ### Si tout est OK, on lance la commande
         self.process.start(TempValues.value("Command")[1], TempValues.value("Command")[2])
@@ -3752,7 +3777,8 @@ class MKVExtractorQt5(QMainWindow):
             if self.ui.progressBar.maximum() != 100:
                 self.ui.progressBar.setMaximum(100) # Réinitialisation de la valeur maximale de la barre de progression
 
-            if self.ui.stackedMiddle.currentIndex() != 0:
+            # Si on est déjà sur les pistes ou sur la config des logiciels
+            if self.ui.stackedMiddle.currentIndex() not in (0, 2):
                 self.ui.stackedMiddle.setCurrentIndex(0) # Ré-affiche le tableau des pistes si ce n'est plus lui qui est affiché
 
             for widget in (self.ui.menubar, self.ui.tracks_bloc):
@@ -4323,7 +4349,7 @@ class MKVExtractorQt5(QMainWindow):
 if __name__ == '__main__':
     ### Informations sur l'application'
     app = QApplication(sys.argv)
-    app.setApplicationVersion("22.08.30a")
+    app.setApplicationVersion("23.04.16a")
     app.setApplicationName("MKV Extractor Qt5")
 
     ### Gestion de l'emplacement du logiciel
@@ -4375,6 +4401,8 @@ if __name__ == '__main__':
         "Location/MKClean": "",
         "Location/MKVInfo": "",
         "Location/MKVToolNix": "",
+        "Location/MKVExtract": "",
+        "Location/MKVMerge": "",
         "Location/MKValidator": "",
         "Location/Qtesseract5": "",
         "MMGorMEQ": "MEQ", # Logiciel à utiliser entre MKVExtractorQt et mmg
@@ -4421,8 +4449,8 @@ if __name__ == '__main__':
                 elif KeyType is int:
                     Configs.setValue(Key, int(Configs.value(Key)))
 
-                # Si c'est un str
-                elif KeyType is str:
+                # Si c'est un str diff de None et @Invalid()
+                elif KeyType is str and Configs.value(Key).lower() not in ("none", "@invalid()"):
                     Configs.setValue(Key, str(Configs.value(Key)))
 
                 # Sinon, on réinitialise
